@@ -1,0 +1,26 @@
+
+/* .maquette { */
+	/* background-image: url("../Maquette Desktop.png"); */
+	/* background-repeat: no-repeat; */
+	/* background-position: center;  */
+	/* display: block; */
+	/* position: absolute; */
+	
+	/* width: 100%; */
+	/* height: 201%; */
+	
+	/* opacity: 40%; */
+/* } */
+
+.maquetteSubDivided {
+	background-image: url("../Maquette Desktop - SubDivided.png");
+	background-repeat: no-repeat;
+	background-position: center; 
+	display: block;
+	position: absolute;
+	
+	width: 100%;
+	height: 201%;
+	
+	opacity: 40%;
+}
