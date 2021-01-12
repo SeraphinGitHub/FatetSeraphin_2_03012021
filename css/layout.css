@@ -3,27 +3,20 @@
 /* Body */
 /* =============================== */
 body {
-	background-position: center;
-	position: absolute;
-	display: block;
-	margin: 0;
-	
+	display: flex;
+	flex-direction: column;
+	margin: 0% 0% 0% 12.5%;
+
 	width: 75%;
-    height: 100%;
-	
-	left: 12%;
-	
-	/* background-color: dodgerBlue; */
 }
 
 
 /* =============================== */
 /* Header */
 /* =============================== */
-header {	
-	width: 100%;
-    height: 43%;
-	
+header {
+	padding: 0% 0% 27% 0%;
+
 	background-color: tomato;
 }
 
@@ -31,9 +24,9 @@ header {
 /* =============================== */
 /* Section */
 /* =============================== */
-.hebergementsEtPopulaires {   
-	width: 100%;
-    height: 72%;
+.hebergementsEtPopulaires {
+	display: flex;
+	justify-content: space-between;
 	
 	background-color: violet;
 }
@@ -43,11 +36,8 @@ header {
 	/* Section */
 	/* =============================== */
 	.hebergements {
-		float: left;
-		margin: 0% 0% 0% 3%;
-		
-		width: 62%;
-		height: 100%;
+		margin: 1%;
+		width: 70%;
 		
 		background-color: orange;
 	}
@@ -59,10 +49,7 @@ header {
 		.hebergementsPhotos {
 			display: flex;
 			flex-flow: row wrap;
-			margin: -1% 0% 0% 3%;
-			
-			width: 95%;
-			height: 68%;
+			margin: 1%;
 			
 			background-color: grey;
 		}
@@ -71,12 +58,13 @@ header {
 			/* Div */
 			/* =============================== */
 			.hebergementsPhotos > div {
-				margin: 2%;
-				text-align: center;
-				line-height: 400%;
-				font-size: 300%;
-				
-				width: 29%;
+				display: flex;
+				align-content: center;
+				padding: 1%;			
+				margin: 1%;			
+				/* width: 30%; */
+				height: 172px;
+				width: 275px;
 				
 				background-color: white;
 			}
@@ -85,10 +73,8 @@ header {
 	/* Section */
 	/* =============================== */
 	.populaires {
-		float: right;
-		
-		width: 34%;
-		height: 100%;
+		margin: 1%;	
+		width: 30%;
 		
 		background-color: dodgerBlue;
 	}
@@ -124,10 +110,9 @@ header {
 /* =============================== */
 /* Section */
 /* =============================== */
-.activites {	
-	width: 100%;
-    height: 62%;
-	
+.activites {
+	padding: 0% 0% 18% 0%;
+
 	background-color: green;
 }
 
@@ -227,8 +212,3 @@ footer {
 			
 			background-color: white;
 		}
-		
-		
-h5 {
-	margin: 5% 0% 0% 7%
-}
