@@ -5,8 +5,11 @@
 		<meta charset="UTF-8">
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 		<title>Reservia - Trouver votre hébergement</title>
-		<link rel="stylesheet" type="text/css" href="css/layout.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="css/layoutDesktop.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="css/layoutTablet.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="css/layoutPhone.css" media="screen"/>
 		<link rel="stylesheet" type="text/css" href="css/police.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="css/all.min.css" media="screen"/>
 		
 		<link rel="stylesheet" type="text/css" href="css/maquetteBackground.css" media="screen"/> <!-- To Delete later -->
 	</head>
@@ -14,7 +17,7 @@
 	<body>
 		<section> <!-- To Delete later -->
 			<!-- ============================================================================ -->
-			<a class="maquette"></a>
+			<!-- <a class="maquette"></a> -->
 			<!-- <a class="maquetteSubDivided"></a> -->
 			<!-- ============================================================================ -->
 		</section>
@@ -24,9 +27,9 @@
 				<img class="logo" src="images/logo/Reservia@3x.png" alt="Logo">
 
 				<ul class="menu">
-					<li><a><h3>Hébergements</h3></a></li>
-					<li><a><h3>Activités</h3></a></li>
-					<li><a><h3>S'inscrire</h3></a></li>
+					<li><h3><a href="#hebergementsAnchor" class="active">Hébergements</a></h3></li>
+					<li><h3><a href="#activitiesAnchor">Activités</a></h3></li>
+					<li><h3><a href="s'inscrire.html" class="fixed">S'inscrire</a></h3></li>
 				</ul>
 			</div>
 
@@ -37,32 +40,80 @@
 			</div>
 
 			<div class="rechercher">
+				<figure>
+					<i class="fas fa-map-marker-alt"></i>
+				</figure>
+
 				<form method="post" action="rechercherVille.php">
-					<input type="search" name="ville" placeholder="Marseille, France"/>
+					<input type="search" name="ville" value="Marseille, France"/>
 				</form>
 
-				<a href="rechercherVille.php"><h2>Rechercher</h2></a>
+				<h2><a href="rechercherVille.php">Rechercher</a></h2>
 			</div>
 			
 			<nav>
 				<h2>Filtres</h2>
 				
 				<ul class="filtres">
-					<li><a><h2>Économique</h2></a></li>
-					<li><a><h2>Familial</h2></a></li>
-					<li><a><h2>Romantique</h2></a></li>
-					<li><a><h2>Animaux&nbsp;autorisés</h2></a></li>
+					<li>
+						<figure>
+							<i class="fas fa-money-bill-wave"></i>
+						</figure>
+						
+						<div class="changeOnHover">
+							<h2><a>Économique</a></h2>
+						</div>			
+					</li>
+
+					<li>
+						<figure>
+							<i class="fas fa-child"></i>
+						</figure>
+
+						<div class="changeOnHover">
+							<h2><a>Familial</a></h2>
+						</div>
+					</li>
+
+					<li>
+						<figure>
+							<i class="fas fa-heart"></i>
+						</figure>
+						
+						<div class="changeOnHover">
+							<h2><a>Romantique</a></h2>
+						</div>
+					</li>
+					
+					<li>
+						<figure>
+							<i class="fas fa-dog"></i>
+						</figure>
+						
+						<div class="changeOnHover">
+							<h2><a>Animaux&nbsp;autorisés</a></h2>
+						</div>
+					</li>
 				</ul>
 			</nav>
 
-			<p>Plus de 500 logements sont disponibles dans cette ville</p>
+			<div class="textHeader_Bot">
+				<figure>
+					<i class="fas fa-info"></i>
+				</figure>
+				
+				<p>Plus de 500 logements sont disponibles dans cette ville</p>
+			</div>
 		</header>
 		
 		<section class="hebergementsEtPopulaires">
+			<h2></h2> <!-- W3C Validator No Error -->
 			
+			<a id="hebergementsAnchor"></a>
+
 			<section class="hebergements">
 				<h1 style="padding: 4% 0% 0% 5%">Hébergements à Marseille</h1>
-				
+
 				<div class="hebergementsPhotos">
 					<figure>
 						<img src="images/1_hebergements/4_small/heb 01.jpg" alt="Bedroom Hotel">
@@ -110,10 +161,11 @@
 			
 		</section>
 		
-		<section class="activites">
-			
-			<h1 style="padding: 1.5% 0% 0% 3%">Activités à Marseille</h1>
+		<a id="activitiesAnchor"></a>
 		
+		<section class="activites">
+			<h1 style="padding: 1.5% 0% 0% 3%">Activités à Marseille</h1>
+			
 			<div class="activitesPhotos">
 				<div>1</div>
 				

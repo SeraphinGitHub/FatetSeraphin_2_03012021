@@ -1,4 +1,23 @@
 
+/* *********************************************** */
+/* Colors Specs */
+/* *********************************************** */
+
+	/* Blue : #0065FC */
+	/* Clear Blue : #DEEBFF */
+	/* Grey : #F2F2F2 */
+
+/* *********************************************** */
+
+
+/* =============================== */
+/* Icons */
+/* =============================== */
+i {
+	font-size: 100%;
+}
+
+
 /* =============================== */
 /* Body */
 /* =============================== */
@@ -17,7 +36,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	
-	background-color: tomato;
+	/* background-color: tomato; */
 }
 
 
@@ -29,8 +48,11 @@ header {
 		justify-content: space-between;
 		
 		margin: 1%;
-
-		background-color: greenyellow;
+		margin-top: 0%;
+		
+		height: 99px;
+		
+		/* background-color: greenyellow; */
 	}
 
 
@@ -38,12 +60,12 @@ header {
 		/* Img */
 		/* =============================== */
 		.logo {
-			margin-top: 2.1%;
+			margin-top: 3.1%;
 			margin-left: 2.8%;
 			
 			height: 45px;
 
-			background-color: orange;
+			/* background-color: orange; */
 		}
 
 
@@ -54,40 +76,83 @@ header {
 			display: flex;
 			justify-content: space-between;
 			
-			margin-top: 1.4%;
+			margin-top: 2.4%;
 			margin-right: 3.6%;
 			
 			padding: 0%;
 			
 			width: 27.2%;
 			
-			background-color: orange;
+			/* background-color: darkviolet; */
 		}
+
+
+			.menu a {
+				text-decoration: none;
+
+				color: black;
+
+				/* background-color: orange; */
+			}
+
+			
+			.menu a.active {
+				text-decoration: none;
+
+				margin-left: -24%;
+
+				padding-top: 41%;
+				padding-right: 20%;
+				padding-left: 24%;
+
+				border-top:  #0065FC solid 2px;
+				
+				color: #0065FC;
+
+				/* background-color: orange; */
+			}
+
+
+			.menu a.fixed {
+				font-family: "Raleway-Bold";
+				line-height: 100%;
+				font-weight: 400;
+				font-size: 100%;
+
+				color: #0065FC;
+
+				/* background-color: orange; */
+			}
 
 
 	/* =============================== */
 	/* Div */
 	/* =============================== */
-	.textHeader_Top h1 {
-		margin-top: 1%;
-		margin-right: 1%;
-		margin-left: 1%;
+	.textHeader_Top {
+		display: flex;
+		flex-direction: column;
 
-		padding-top: 0.1%;
-		padding-left: 2.9%;
+		height: 82px;
 
-		background-color: greenyellow;
+		/* background-color: greenyellow; */
 	}
+	
+	
+		.textHeader_Top h1 {
+			margin-top: 1.1%;
+			margin-right: 1%;
+			margin-left: 3.8%;
+			
+			/* background-color: darkviolet; */
+		}
 
-	.textHeader_Top p {
-		margin-top: -0.2%;
-		margin-right: 1%;
-		margin-left: 1%;
-
-		padding-left: 2.9%;
-
-		background-color: greenyellow;
-	}
+		.textHeader_Top p {
+			margin-top: -0.2%;
+			margin-right: 1%;
+			margin-left: 3.8%;
+			
+			/* background-color: darkviolet; */
+		}
 
 
 	/* =============================== */
@@ -99,15 +164,29 @@ header {
 
 		margin-top: 0.2%;
 		margin-right: 66.8%;
-		margin-left: 3.8%;
-	
-		padding-left: 3.6%;
+		margin-left: 3.7%;
 
 		height: 52px;
 		border-radius: 15px;
 
-		background-color: greenyellow;
+		background-color: #F2F2F2;
 	}
+
+
+		.rechercher figure {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			margin: 0%;
+			
+			width: 54px;
+			
+			border-radius: 15px 0px 0px 15px;
+
+			background-color: #F2F2F2;
+		}
+
 
 		.rechercher form {
 			display: flex;
@@ -119,7 +198,7 @@ header {
 				line-height: 100%;
 				font-weight: 400;
 				font-size: 113%;
-				
+
 				margin-top: 1%;
 				margin-bottom: 1%;
 				
@@ -128,23 +207,32 @@ header {
 				width: 103.2%;
 				border: none;
 
-				background-color: orange;
+				background-color: white;
 			}
 
 
-			.rechercher a {
-				margin-left: 2%;
-				
-				padding-left: 5%;
-				padding-right: 4.4%;
+		.rechercher h2 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 
-				border-radius: 0px 15px 15px 0px;
-				
+			margin-top: 0%;
+			margin-bottom: 0%;
+			margin-left: 2%;
+
+			border-radius: 0px 15px 15px 0px;
+			background-color: #0065FC;
+		}
+
+
+			.rechercher h2 a {
+				padding-right: 16px;
+				padding-left: 17px;
+
 				text-decoration: none;
-				
-				color: black;
-				background-color: green;
-			}
+
+				color: white;
+			} 
 
 
 	/* =============================== */
@@ -154,43 +242,165 @@ header {
 		display: flex;
 		justify-content: flex-start;
 		
-		margin: 1%;
+		margin-top: 1.4%;
+		margin-right: 1%;
+		margin-left: 1%;
+		
+		padding-left: 1.3%;
 
-		background-color: greenyellow;
+		/* background-color: greenyellow; */
 	}
 
 
-		nav h2 {			
+		nav > h2 {	
 			margin: 1%;
 			
 			padding: 1%;
 
-			background-color: darkturquoise;
+			background-color: white;
 		}
 
-
+		
+		/* =============================== */
+		/* Li */
+		/* =============================== */
 		.filtres {
 			display: flex;
 			justify-content: space-between;
+			
 			list-style: none;
 
+			margin-top: 0.7%;
+			margin-left: 0.6%;
+			
+			padding-left: 0%;
+			
+			width: 61.2%;
+			height: 51px;
+			
+			/* background-color: darkturquoise; */
+		}
+
+			.filtres li {
+				display: flex;
+				justify-content: space-between;
+
+				border:  lightgray solid 2px;
+				border-radius: 30px;
+				
+				background-color: white;
+			}
+
+
+				/* =============================== */
+				/* Figure */
+				/* =============================== */
+				.filtres li figure {
+					display: flex;
+					position: absolute;
+					justify-content: center;
+					align-items: center;
+
+					margin: -2px;
+
+					height: 51px;
+					width: 51px;
+					
+					border-radius: 30px;
+					
+					background-color: #DEEBFF;
+				}
+
+
+					.filtres li figure i {
+						color: #0065FC;
+					}
+
+				/* =============================== */
+				/* Div */
+				/* =============================== */
+				.filtres li .changeOnHover {
+					display: flex;
+				}
+
+
+					.filtres li .changeOnHover h2 {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+
+						margin: 0%;
+ 
+						padding-right: 22px;
+						padding-left: 58px;
+						
+						border-radius: 30px;
+						
+						/* background-color: darkturquoise; */
+					}
+
+
+			/* =============================== */
+			/* Filtres on Hover */
+			/* =============================== */
+			.filtres li .changeOnHover :hover  {			
+				color: white;
+
+				background-color: #0065FC;
+			}
+
+
+		/* =============================== */
+		/* Div */
+		/* =============================== */
+		.textHeader_Bot {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+
 			margin: 1%;
-			padding: 1%;
-			
-			width: 60%;
-			
-			background-color: darkturquoise;
+			margin-top: 1.2%;
+
+			padding-left: 3.1%;
+
+			/* background-color: greenyellow; */
 		}
 
 
-	p {
-		margin-right: 1%;
-		margin-left: 1%;
-		padding-top: 0.1%;
-		padding-left: 2.9%;
+			/* =============================== */
+			/* Figure */
+			/* =============================== */
+			.textHeader_Bot figure {
+				display: flex;
+				justify-content: center;
+				align-items: center;
 
-		background-color: greenyellow;
-	}
+				margin: 0%;
+
+				height: 20px;
+				width: 20px;
+				
+				border:  lightgray solid 2px;
+				border-radius: 30px;
+					
+				background-color: white;
+			}
+			
+			
+				.textHeader_Bot figure i {
+					font-size: 70%;
+					color: #0065FC;
+				}
+			
+			
+			.textHeader_Bot p {
+				margin: 0%;
+				margin-left: 0.9%;
+
+				padding-top: 0.2%;
+
+				/* background-color: darkviolet; */
+			}
 
 
 /* =============================== */
