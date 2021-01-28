@@ -84,6 +84,7 @@ header {
 			font-family: "Raleway-Regular";
 		
 			margin: 3.6%;
+			margin-top: 3.5%;
 			
 			padding: 0%;
 			
@@ -143,18 +144,20 @@ header {
 	
 	
 		/* Trouvez votre hébergement ... */
-		.textHeader_Top h1 {
+		.textHeader_Top h2 {
+			font-size: 136%;
+
 			margin-top: 1.1%;
 			margin-right: 1%;
 			margin-left: 3.8%;
 			
-			/* background-color: darkviolet; */
+			/* background-color: darkturquoise; */
 		}
 
 
 		/* En plein centre ville... */
 		.textHeader_Top p {
-			margin-top: -0.2%;
+			margin-top: -0.5%;
 			margin-right: 1%;
 			margin-left: 3.8%;
 			
@@ -439,6 +442,10 @@ header {
 }
 
 
+	.hebergementsEtPopulaires .W3C_Validator {
+		font-size: 0%;
+	}
+
 
 
 	/* ==================================================== */
@@ -458,9 +465,11 @@ header {
 	
 
 		/* Hébergements à Marseille */
-		.hebergements h1 {
+		.hebergements h2 {
+			font-size: 137%;
+
 			margin: 5%;
-			margin-bottom: 1%;
+			margin-bottom: 0.3%;
 			margin-left: 4.6%;
 		}
 
@@ -471,6 +480,7 @@ header {
 		.hebergementsPhotos {
 			display: flex;
 			flex-wrap: wrap;
+			align-content: space-around;
 
 			margin: 2%;
 			margin-top: 0%;
@@ -481,6 +491,11 @@ header {
 
 			/* background-color: orange; */
 		}
+		
+
+			.hebergementsPhotos a  {
+				margin: -3%;
+			}
 
 
 			/* =============================== */
@@ -491,10 +506,10 @@ header {
 				
 				position: relative;
 
-				margin: 2%;
+				/* margin: 2%; */
 				margin-bottom: 0%;
 				
-				padding: 0.5%;
+				padding: 1.5%;
 
 				height: 190px;
 
@@ -502,30 +517,19 @@ header {
 
 				box-shadow: 5px 5px 10px lightgray;
 				
-				background-color: white;
-			}
-
-
-			/* =============================== */
-			/* Anchor */
-			/* =============================== */
-			.hebergementsPhotos .thumbnails a {
-				display: flex;
-
-				border-radius: 20px;
 				color: black;
 				
-				/* background-color: yellowgreen; */
+				background-color: white;
 			}
 
 
 				/* =============================== */
 				/* Img */
 				/* =============================== */
-				.hebergementsPhotos .thumbnails a Img {
+				.hebergementsPhotos .thumbnails Img {
 					object-fit: cover;
 
-					width: 235px;
+					width: 247px;
 					height: 115px;
 
 					border-radius: 20px 20px 0px 0px;
@@ -535,29 +539,29 @@ header {
 				/* =============================== */
 				/* Figcaption */
 				/* =============================== */
-				.hebergementsPhotos .thumbnails a figcaption {
+				.hebergementsPhotos .thumbnails figcaption {
 					display: flex;
 					flex-wrap: wrap;
 					align-content: space-around;
-
+					
 					position: absolute;
-
-					margin-top: 47.2%;
-
+					
+					margin-top: 46.5%;
+					
 					padding: 3%;
-					padding-bottom: 0.5%;
+					padding-bottom: 1%;
 					padding-left: 3%;
 					
-					width: 220px;
-
+					width: 222px;
+					
 					border-radius: 0px 0px 20px 20px;
-
+					
 					/* background-color: yellowgreen; */
 				}
-
+				
 
 					/* Figcaption h2 */
-					.hebergementsPhotos .thumbnails a figcaption h2 {
+					.hebergementsPhotos .thumbnails figcaption h2 {
 						font-size: 100%;
 
 						margin: 1%;
@@ -570,7 +574,7 @@ header {
 
 
 					/* Figcaption p */
-					.hebergementsPhotos .thumbnails a figcaption p {
+					.hebergementsPhotos .thumbnails figcaption p {
 						font-size: 88%;
 
 						margin: 1%;
@@ -587,7 +591,7 @@ header {
 						/* =============================== */
 						
 						/* Figure Stars */
-						.hebergementsPhotos .thumbnails a figcaption figure {
+						.hebergementsPhotos .thumbnails figcaption figure {
 							display: flex;
 
 							margin: 1%;
@@ -597,7 +601,7 @@ header {
 						
 
 							/* Active Stars */
-							.hebergementsPhotos .thumbnails a figcaption .active {
+							.hebergementsPhotos .thumbnails figcaption .active {
 								font-size: 75%;
 
 								color: #0065FC;
@@ -605,7 +609,7 @@ header {
 
 
 							/* Greyed Out Stars */
-							.hebergementsPhotos .thumbnails a figcaption .greyedOut {
+							.hebergementsPhotos .thumbnails figcaption .greyedOut {
 								font-size: 75%;
 
 								color: lightgray;
@@ -615,7 +619,7 @@ header {
 			/* ============================================================== */
 			/* --- Figure On Hover ---*/
 			/* ============================================================== */
-			.hebergementsPhotos :hover {
+			.hebergementsPhotos a :hover {
 				background-color: #97c1ff;
 			}
 
@@ -623,15 +627,18 @@ header {
 			/* ============================================================== */
 			/* --- Figure On Click ---*/
 			/* ============================================================== */
-			.hebergementsPhotos :active {
+			.hebergementsPhotos a :active {
 				background-color: lightgray;
 			}
 
 
 
 		/* Afficher plus */
-		.hebergements h2 {
-			margin: 3.2%;
+		.hebergements h3 {
+			font-family: "Raleway-Bold";
+			font-size: 113%;
+
+			margin: 4%;
 			margin-left: 5%;
 		}
 
@@ -673,8 +680,11 @@ header {
 
 
 			/* Les plus populaires */
-			.populaires h1 {
-				margin: 1%;
+			.populaires h2 {
+				font-size: 136%;
+
+				margin: 0.6%;
+				margin-left: 1.7%;
 			}
 
 
@@ -683,7 +693,7 @@ header {
 			/* =============================== */
 			.populairesTitle figure {
 				margin: 1%;
-				margin-top: 0.7%;
+				margin-top: 0%;
 
 				padding-right: 6%;
 			}
@@ -708,12 +718,17 @@ header {
 			
 			/* background-color: darkturquoise; */
 		}
+
+
+		.populairesPhotos a {
+			width: 100%;
+		}
 			
 
 			/* =============================== */
 			/* Figure */
 			/* =============================== */
-			.populairesPhotos .thumbnails {
+			.populairesPhotos a .thumbnails {
 				display: flex;
 								
 				position: relative;
@@ -721,34 +736,25 @@ header {
 				margin: 3%;
 				margin-left: 6.5%;
 				
-				padding: 1%;
+				padding: 1.2%;
 
 				width: 335px;
 				height: 135px;
-
+				
 				border-radius: 22px;
 
 				box-shadow: 5px 5px 10px lightgray;
+				
+				color: black;
 				
 				background-color: white;
 			}
 
 
-				/* =============================== */
-				/* Anchor */
-				/* =============================== */
-				.populairesPhotos .thumbnails a {
-					display: flex;
-
-					border-radius: 20px;
-					color: black;
-				}
-
-
 					/* =============================== */
 					/* Img */
 					/* =============================== */
-					.populairesPhotos .thumbnails a Img {
+					.populairesPhotos a .thumbnails Img {
 						object-fit: cover;
 
 						width: 129px;
@@ -760,7 +766,7 @@ header {
 					/* =============================== */
 					/* Figcaption */
 					/* =============================== */
-					.populairesPhotos .thumbnails a figcaption {
+					.populairesPhotos a .thumbnails figcaption {
 						display: flex;
 						flex-wrap: wrap;
 						align-content: flex-start;
@@ -782,7 +788,7 @@ header {
 
 
 						/* Figcaption h2 */
-						.populairesPhotos .thumbnails a figcaption h2 {
+						.populairesPhotos a .thumbnails figcaption h2 {
 							font-size: 100%;
 							line-height: 110%;
 
@@ -795,7 +801,7 @@ header {
 
 
 						/* Figcaption p */
-						.populairesPhotos .thumbnails a figcaption p {
+						.populairesPhotos a .thumbnails figcaption p {
 							font-size: 88%;
 
 							margin: 1%;
@@ -812,7 +818,7 @@ header {
 							/* =============================== */
 							
 							/* Figure Stars */
-							.populairesPhotos .thumbnails a figcaption figure {
+							.populairesPhotos a .thumbnails figcaption figure {
 								display: flex;
 
 								margin: 1%;
@@ -823,7 +829,7 @@ header {
 							
 
 								/* Active Stars */
-								.populairesPhotos .thumbnails a figcaption .active {
+								.populairesPhotos a .thumbnails figcaption .active {
 									font-size: 75%;
 
 									color: #0065FC;
@@ -831,7 +837,7 @@ header {
 
 
 								/* Greyed Out Stars */
-								.populairesPhotos .thumbnails a figcaption .greyedOut {
+								.populairesPhotos a .thumbnails figcaption .greyedOut {
 									font-size: 75%;
 
 									color: lightgray;
@@ -841,7 +847,7 @@ header {
 				/* ============================================================== */
 				/* --- Figure On Hover ---*/
 				/* ============================================================== */
-				.populairesPhotos :hover {
+				.populairesPhotos a :hover {
 					background-color: #97c1ff;
 				}
 
@@ -849,7 +855,7 @@ header {
 				/* ============================================================== */
 				/* --- Figure On Click ---*/
 				/* ============================================================== */
-				.populairesPhotos :active {
+				.populairesPhotos a :active {
 					background-color: lightgray;
 				}
 
@@ -867,7 +873,9 @@ header {
 }
 
 
-	.activites h1 {
+	.activites h2 {
+		font-size: 136%;
+
 		margin: 1%;
 		margin-top: 1.7%;
 		margin-bottom: 0%;
@@ -912,13 +920,18 @@ header {
 		
 		
 		/* =============================== */
-		/* Anchor */
+		/* Figure */
 		/* =============================== */
-		.activitesPhotos .thumbnails a {
+		.activitesPhotos .thumbnails figure {
 			display: flex;
 			flex-wrap: wrap;
-			align-content: flex-end;
-		
+			align-items: flex-end;
+			justify-content: center;
+								
+			position: relative;
+			
+			margin: 0%;
+
 			border-radius: 20px;
 			box-shadow: 5px 5px 10px lightgray;
 		}
@@ -927,7 +940,7 @@ header {
 			/* =============================== */
 			/* Img */
 			/* =============================== */
-			.activitesPhotos .thumbnails a Img {
+			.activitesPhotos .thumbnails Img {
 				object-fit: cover;
 				
 				width: 305px;
@@ -940,7 +953,7 @@ header {
 				/* =============================== */
 				/* Figcaption */
 				/* =============================== */
-				.activitesPhotos .thumbnails a figcaption {
+				.activitesPhotos .thumbnails figcaption {
 					display: flex;
 					flex-wrap: wrap;
 					align-content: center;
@@ -957,46 +970,19 @@ header {
 				
 
 					/* Vieux Port h2 */
-					.activitesPhotos .thumbnails a figcaption h2 {
+					.activitesPhotos .thumbnails figcaption h2 {
 						font-size: 100%;
 						
 						padding-left: 6.5%;
 						
 						color: black;
 					}
-
-
-		/* =============================== */
-		/* Figure */
-		/* =============================== */
-		.activitesPhotos .thumbnails figure {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-								
-			position: relative;
-			
-			margin: 0%;
-
-			border-radius: 20px;
-			box-shadow: 5px 5px 10px lightgray;
-		}
-
-
-			/* =============================== */
-			/* Anchor */
-			/* =============================== */
-			.activitesPhotos .thumbnails figure a {
-				display: flex;
-				flex-wrap: wrap;
-				align-content: flex-end;
-			}
 			
 			
 			/* =============================== */
 			/* --- Img --- Pict 2 --- */
 			/* =============================== */
-			.activitesPhotos .thumbnails figure a .Pict_2 {
+			.activitesPhotos .thumbnails figure .Pict_2 {
 				object-fit: cover;
 				
 				height: 234px;
@@ -1008,7 +994,7 @@ header {
 			/* =============================== */
 			/* --- Img --- Pict 3 --- */
 			/* =============================== */
-			.activitesPhotos .thumbnails figure a .Pict_3 {
+			.activitesPhotos .thumbnails figure .Pict_3 {
 				object-fit: cover;
 				
 				height: 166px;
@@ -1020,7 +1006,7 @@ header {
 			/* =============================== */
 			/* --- Img --- Pict 5 --- */
 			/* =============================== */
-			.activitesPhotos .thumbnails figure a .Pict_5 {
+			.activitesPhotos .thumbnails figure .Pict_5 {
 				object-fit: cover;
 				
 				height: 194px;
@@ -1032,7 +1018,7 @@ header {
 			/* =============================== */
 			/* --- Img --- Pict 6 --- */
 			/* =============================== */
-			.activitesPhotos .thumbnails figure a .Pict_6 {
+			.activitesPhotos .thumbnails figure .Pict_6 {
 				object-fit: cover;
 				
 				height: 209px;
@@ -1044,7 +1030,7 @@ header {
 				/* =============================== */
 				/* Figcaption */
 				/* =============================== */
-				.activitesPhotos .thumbnails figure a figcaption {
+				.activitesPhotos .thumbnails figure figcaption {
 					display: flex;
 					flex-wrap: wrap;
 					align-content: center;
@@ -1061,10 +1047,8 @@ header {
 
 
 					/* Fort de Pomègues h2 */
-					.activitesPhotos .thumbnails a figcaption h2 {
+					.activitesPhotos .thumbnails figure figcaption h2 {
 						font-size: 100%;
-						
-						margin-top: 6%;
 
 						padding-left: 6.8%;
 						
@@ -1075,7 +1059,7 @@ header {
 		/* ============================================================== */
 		/* --- Figure On Hover ---*/
 		/* ============================================================== */
-		.activitesPhotos .thumbnails a Img:hover {
+		.activitesPhotos .thumbnails figure Img :hover {
 			opacity: 60%;
 		}
 
@@ -1096,34 +1080,46 @@ header {
 footer {
 	display: flex;
 	justify-content: flex-start;
+
+	width: 100.9%;
+    height: 219px;
 	
-	width: 100%;
-    height: 22%;
-	
-	background-color: violet;
+	background-color: #F2F2F2;
 }
+
 
 	/* =============================== */
 	/* Div */
 	/* =============================== */
-	footer > div {
+	footer div {
 		margin: 1%;
-		text-align: left;
-		line-height: 165%;
-		font-size: 140%;
 		
-		width: 30%;
+		width: 29.5%;
 		
-		background-color: grey;
+		/* background-color: orange; */
 	}
+
+
+		footer div h2 {
+			/* font-size: 100%; */
+
+			margin-top: 8%;
+			margin-left: 8.6%;
+		}
 	
+		
 		/* =============================== */
-		/* Ul */
+		/* Li */
 		/* =============================== */
-		div > ul {
-			margin-right: 3%;
-			margin-left: -3%;
+		footer div .footerList {
 			list-style: none;
 			
-			background-color: white;
+			font-family: "Raleway-Regular";
+			line-height: 190%;
+			font-weight: 400;
+			font-size: 100%;
+
+			margin-left: -1%;
+			
+			/* background-color: yellowgreen; */
 		}
