@@ -1,39 +1,18 @@
 
-/* *********************************************** */
-/* Colors Specs */
-/* *********************************************** */
-
-	/* Blue : #0065FC */
-	/* Clear Blue : #DEEBFF */
-	/* Grey : #F2F2F2 */
-
-/* *********************************************** */
-
 /* ============================================================================================================= */
-/* 			----  Desktop ---- */
+/* 			----  Smartphone Portrait ---- */
 /* ============================================================================================================= */
-@media screen and (min-width: 1224px) {
-
-
-/* =============================== */
-/* Icons */
-/* =============================== */
-i {
-	font-size: 100%;
-}
-
-
+@media screen and (min-width: 320px) and (max-device-width : 420px) {
+    
 /* =============================== */
 /* Body */
 /* =============================== */
 body {
 	display: flex;
-	flex-direction: column;
-	margin-left: 12.5%;
-	width: 75%;
+    flex-direction: column;
+    
+    margin: 0%;
 }
-
-
 
 
 /* ============================================================================================================= */
@@ -51,13 +30,12 @@ header {
 	/* Nav */
 	/* =============================== */
 	.logoEtMenu {
-		display: flex;
-		justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
 		
-		margin: 1%;
-		margin-top: 0%;
-		
-		height: 99px;
+		margin: 0%;
+        
+        padding: 0%;
 		
 		/* background-color: greenyellow; */
 	}
@@ -67,8 +45,9 @@ header {
 		/* Img */
 		/* =============================== */
 		.logo {
-			margin-top: 3.2%;
-			margin-left: 1.4%;
+            margin: 3%;
+			margin-top: 6.5%;
+			margin-left: 5.2%;
 			
 			height: 45px;
 
@@ -80,16 +59,17 @@ header {
 		/* Div */
 		/* =============================== */
 		.menu {
-			display: flex;
-			justify-content: space-around;
-			align-items: center;
+            display: flex;
+            justify-content: flex-end;
 			
 			/* h3 */
 			font-family: "Raleway-Regular";
 			
-			width: 34%;
+			width: 100%;
 
-			padding-top: 1.1%;
+            margin-top: 4%;
+
+			padding-top: 0%;
 		}
 		
 
@@ -97,22 +77,23 @@ header {
 			/* Li */
 			/* =============================== */
 			.menu ul {
-				display: flex;
-				flex-wrap: wrap;
-				justify-content: space-between;
+                display: flex;
+                justify-content: space-between;
 				
-				margin: 0%;
+                margin: 0%;
+                margin-top: 0.5%;
+                margin-right: -7%;
 
 				padding: 0%;
 
-				width: 51.5%;
+				width: 72.2%;
 			}
 
 
 				.menu li {
 					list-style: none;
 
-					margin: 1%;
+					margin: 0%;
 
 					color: black;
 					
@@ -120,25 +101,33 @@ header {
 				}
 
 
-					.menu li a {
-						text-decoration: none;
-
-						color: black;
-						
-						/* background-color: orange; */
-					}
+                    .menu li a {
+                        text-decoration: none;
+                        
+                        margin-left: -95%;
+                        
+                        padding-bottom: 20%;
+                        padding-right: 104%;
+                        padding-left: 95%;
+                        
+                        border-bottom: #F2F2F2 solid 3px;
+                        
+                        color: black;
+                        
+                        /* background-color: orange; */
+                    }
 
 
 					.menu li a.active {
 						text-decoration: none;
 
-						margin-left: -24%;
+						margin-left: -35%;
 
-						padding-top: 41%;
-						padding-right: 20%;
-						padding-left: 24%;
+						padding-bottom: 11%;
+						padding-right: 34%;
+						padding-left: 35%;
 
-						border-top:  #0065FC solid 2px;
+						border-bottom:  #0065FC solid 3px;
 						
 						color: #0065FC;
 
@@ -149,7 +138,9 @@ header {
 			.menu a.fixed {
 				text-decoration: none;
 
-				margin: 1%;
+                margin: 0%;
+                margin-top: -14.8%;
+				margin-right: 5.7%;
 
 				/* h2 */
 				font-family: "Raleway-Bold";
@@ -167,19 +158,18 @@ header {
 		display: flex;
 		flex-direction: column;
 
-		height: 82px;
-
 		/* background-color: greenyellow; */
 	}
 	
 	
 		/* Trouvez votre hébergement ... */
 		.textHeader_Top h2 {
-			font-size: 136%;
+            font-size: 136%;
+            line-height: 113%;
 
-			margin-top: 1.1%;
-			margin-right: 1%;
-			margin-left: 3.8%;
+			margin-top: 13.1%;
+			margin-right: 13%;
+			margin-left: 5%;
 			
 			/* background-color: darkturquoise; */
 		}
@@ -189,7 +179,7 @@ header {
 		.textHeader_Top p {
 			margin-top: -0.5%;
 			margin-right: 1%;
-			margin-left: 3.8%;
+			margin-left: 5%;
 			
 			/* background-color: darkviolet; */
 		}
@@ -202,13 +192,13 @@ header {
 		display: flex;
 		justify-content: start;
 
-		margin-top: 0.2%;
-		margin-left: 3.7%;
+		margin-top: 5.2%;
+		margin-left: 5.7%;
 
 		height: 52px;
-		width: 422px;
+		width: 334px;
 
-		border-radius: 20px;
+		border-radius: 15px;
 
 		background-color: #F2F2F2;
 	}
@@ -220,13 +210,15 @@ header {
 		.rechercher figure {
 			display: flex;
 			justify-content: center;
-			align-items: center;
+            align-items: center;
+            
+            font-size: 110%;
 
 			margin: 0%;
 			
-			width: 54px;
+			width: 52px;
 			
-			border-radius: 20px 0px 0px 20px;
+			border-radius: 15px 0px 0px 15px;
 
 			background-color: #F2F2F2;
 		}
@@ -250,7 +242,6 @@ header {
 				
 				padding-left: 7%;
 				
-				width: 103.2%;
 				border: none;
 
 				/* background-color: violet; */
@@ -264,41 +255,38 @@ header {
 			align-items: center;
 
 			text-decoration: none;
-			
-			margin-top: 0%;
-			margin-bottom: 0%;
-			margin-left: 2%;
 
-			padding-right: 16px;
+            margin-left: 1%;
+
+			padding-right: 18px;
 			padding-left: 17px;
-
-			width: 24%;
 
 			color: white;
 
-			border-radius: 0px 20px 20px 0px;
+			border-radius: 15px;
 			background-color: #0065FC;
-		}
+        }
+        
+
+            .rechercher h2 {
+                font-size: 0%;
+            }
 
 
-			.rechercher a .searchIcon {
-				font-size: 0%;
-			}
+            .rechercher a .searchIcon {
+                font-size: 110%;
+
+                width: 0%;
+            }
 
 
 	/* =============================== */
 	/* Nav */
 	/* =============================== */
-	nav {
-		display: flex;
-		justify-content: flex-start;
-		
-		margin-top: 1.4%;
-		margin-right: 1%;
-		margin-left: 1%;
-		
-		padding-left: 1.3%;
-
+	nav {		
+		margin-top: 7%;
+        margin-left: 4%;
+        
 		/* background-color: greenyellow; */
 	}
 
@@ -319,17 +307,17 @@ header {
 		/* =============================== */
 		.filtres {
 			display: flex;
-			justify-content: space-between;
+            flex-wrap: wrap;
+            align-content: space-between;
 			
 			list-style: none;
 
-			margin-top: 0.7%;
-			margin-left: 0.3%;
+			margin-top: 3.5%;
+			margin-left: 1.3%;
 			
 			padding-left: 0%;
-			
-			width: 61.2%;
-			height: 51px;
+
+			height: 175px;
 			
 			/* background-color: darkturquoise; */
 		}
@@ -337,6 +325,10 @@ header {
 			.filtres li {
 				display: flex;
 				justify-content: space-between;
+
+                margin-right: 3.5%;
+
+                height: 46px;
 
 				border:  lightgray solid 2px;
 				border-radius: 30px;
@@ -356,8 +348,8 @@ header {
 
 					margin: -2px;
 
-					height: 51px;
-					width: 51px;
+					height: 50px;
+					width: 50px;
 					
 					border-radius: 30px;
 					
@@ -384,27 +376,17 @@ header {
 
 						/* h2 */
 						font-family: "Raleway-Bold";
-						font-size: 113%;
+						font-size: 100%;
 
 						margin: 0%;
  
-						padding-right: 22px;
-						padding-left: 58px;
+						padding-right: 15px;
+						padding-left: 60px;
 						
 						border-radius: 30px;
 						
 						/* background-color: darkturquoise; */
 					}
-
-
-			/* ============================================================== */
-			/* --- Filtres On Hover ---*/
-			/* ============================================================== */
-			.filtres li:hover  {			
-				color: white;
-
-				background-color: #0065FC;
-			}
 
 
 		/* =============================== */
@@ -415,8 +397,8 @@ header {
 			justify-content: flex-start;
 			align-items: center;
 
-			margin: 1%;
-			margin-top: 1.2%;
+			margin: 2%;
+			margin-top: 3.2%;
 
 			padding-left: 3.1%;
 
@@ -432,10 +414,11 @@ header {
 				justify-content: center;
 				align-items: center;
 
-				margin: 0%;
+                margin: 0%;
+                margin-bottom: 2%;
 
 				height: 20px;
-				width: 20px;
+				width: 27px;
 				
 				border:  lightgray solid 2px;
 				border-radius: 30px;
@@ -453,9 +436,9 @@ header {
 			/* Plus de 500 logements... */
 			.textHeader_Bot p {
 				margin: 0%;
-				margin-left: 0.9%;
+				margin-left: 2.9%;
 
-				padding-top: 0.2%;
+				padding-top: 2.5%;
 
 				/* background-color: darkviolet; */
 			}
@@ -652,7 +635,7 @@ header {
 			/* ============================================================== */
 			/* --- Figure On Hover ---*/
 			/* ============================================================== */
-			.hebergementsPhotos figure:hover {
+			.hebergementsPhotos a :hover {
 				background-color: #97c1ff;
 			}
 
@@ -660,7 +643,7 @@ header {
 			/* ============================================================== */
 			/* --- Figure On Click ---*/
 			/* ============================================================== */
-			.hebergementsPhotos figure:active {
+			.hebergementsPhotos a :active {
 				background-color: lightgray;
 			}
 
@@ -880,7 +863,7 @@ header {
 				/* ============================================================== */
 				/* --- Figure On Hover ---*/
 				/* ============================================================== */
-				.populairesPhotos figure:hover {
+				.populairesPhotos a :hover {
 					background-color: #97c1ff;
 				}
 
@@ -888,7 +871,7 @@ header {
 				/* ============================================================== */
 				/* --- Figure On Click ---*/
 				/* ============================================================== */
-				.populairesPhotos figure:active {
+				.populairesPhotos a :active {
 					background-color: lightgray;
 				}
 
@@ -1157,4 +1140,12 @@ footer {
 			
 			/* background-color: yellowgreen; */
 		}
+}
+
+
+/* ============================================================================================================= */
+/* 			----  Smartphone Landscape ---- */
+/* ============================================================================================================= */
+@media screen and (min-width: 421px) and (max-device-width : 767px) {
+    
 }

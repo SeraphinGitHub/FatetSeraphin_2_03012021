@@ -3,25 +3,35 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Reservia - Trouver votre hébergement</title>
 		<link rel="stylesheet" type="text/css" href="css/layoutDesktop.css" media="screen"/>
 		<!-- <link rel="stylesheet" type="text/css" href="css/layoutTablet.css" media="screen"/> -->
-		<!-- <link rel="stylesheet" type="text/css" href="css/layoutPhone.css" media="screen"/> -->
+		<link rel="stylesheet" type="text/css" href="css/layoutPhone.css" media="screen"/>
 		<link rel="stylesheet" type="text/css" href="css/police.css" media="screen"/>
 		<link rel="stylesheet" type="text/css" href="css/all.min.css" media="screen"/>
+		
+		<link rel="stylesheet" type="text/css" href="css/maquetteBackground.css" media="screen"/>
 	</head>
 	
 	<body>
+		<section>
+			<!-- <a class="maquette"></a> -->
+			<a class="maquetteSmartphone"></a>
+		</section>
+		
 		<header>
 			<nav class="logoEtMenu">
 				<img class="logo" src="images/logo/Reservia@3x.png" alt="Logo">
 				
-				<ul class="menu">
-					<li><a href="#hebergementsAnchor" class="active">Hébergements</a></li>
-					<li><a href="#activitiesAnchor">Activités</a></li>
-					<li><a href="s'inscrire.html" class="fixed">S'inscrire</a></li>
-				</ul>
+				<div class="menu">
+					<ul>
+						<li><a href="#hebergementsAnchor" class="active">Hébergements</a></li>
+						<li><a href="#activitiesAnchor">Activités</a></li>
+					</ul>
+					
+					<a href="s'inscrire.html" class="fixed">S'inscrire</a>
+				</div>
 			</nav>
 			
 			<div class="textHeader_Top">
@@ -39,7 +49,13 @@
 					<input type="search" name="ville" value="Marseille, France"/>
 				</form>
 				
-				<a href="rechercherVille.php">Rechercher</a>
+				<a href="rechercherVille.php">
+					<h2>Rechercher</h2>
+
+					<figure class="searchIcon">
+						<i class="fas fa-search"></i>
+					</figure>
+				</a>
 			</div>
 			
 			<nav>
@@ -101,12 +117,12 @@
 			<h2 class="W3C_Validator">_</h2> <!-- W3C Validator No Error -->
 			
 			<section class="hebergements">
-				<h2>Hébergements à Marseille</h2>
+				<!-- <h2>Hébergements à Marseille</h2> -->
 				
 				<div class="hebergementsPhotos">
 					
 					<!-- Photos N°1 -->
-					<a href="Auberge_la_Cannebiere.jpg">
+					<!-- <a href="Auberge_la_Cannebiere.jpg">
 						<figure class="thumbnails">
 						
 							<img src="images/1_hebergements/4_small/S_heb_01.jpg" alt="Hotel Room">
@@ -140,10 +156,10 @@
 							</figcaption>
 
 						</figure>
-					</a>
+					</a> -->
 					
 					<!-- Photos N°2 -->
-					<a href="Hotel_du_port.jpg">
+					<!-- <a href="Hotel_du_port.jpg">
 						<figure class="thumbnails">
 							
 							<img src="images/1_hebergements/4_small/S_heb_02.jpg" alt="Hotel Room">
@@ -177,10 +193,10 @@
 							</figcaption>
 
 						</figure>
-					</a>
+					</a> -->
 					
 					<!-- Photos N°3 -->
-					<a href="Hotel_Les_mouettes.jpg">
+					<!-- <a href="Hotel_Les_mouettes.jpg">
 						<figure class="thumbnails">
 						
 							<img src="images/1_hebergements/4_small/S_heb_03.jpg" alt="Hotel Room">
@@ -214,10 +230,10 @@
 							</figcaption>
 
 						</figure>
-					</a>
+					</a> -->
 					
 					<!-- Photos N°4 -->
-					<a href="Hotel_de_la_mer.jpg">
+					<!-- <a href="Hotel_de_la_mer.jpg">
 						<figure class="thumbnails">
 							
 							<img src="images/1_hebergements/4_small/S_heb_04.jpg" alt="Hotel Room">
@@ -251,10 +267,10 @@
 							</figcaption>
 
 						</figure>
-					</a>
+					</a> -->
 					
 					<!-- Photos N°5 -->
-					<a href="Auberge_Le_Panier.jpg">
+					<!-- <a href="Auberge_Le_Panier.jpg">
 						<figure class="thumbnails">
 							
 							<img src="images/1_hebergements/4_small/S_heb_05.jpg" alt="Hotel Room">
@@ -288,10 +304,10 @@
 							</figcaption>
 							
 						</figure>
-					</a>
+					</a> -->
 					
 					<!-- Photos N°6 -->
-					<a href="Hotel_chez_Amina.jpg">
+					<!-- <a href="Hotel_chez_Amina.jpg">
 						<figure class="thumbnails">
 						
 							<img src="images/1_hebergements/4_small/S_heb_06.jpg" alt="Hotel Room">	
@@ -325,27 +341,27 @@
 							</figcaption>
 						
 						</figure>
-					</a>
+					</a> -->
 					
 				</div>
 				
-				<h3>Afficher plus</h3>
+				<!-- <h3>Afficher plus</h3> -->
 			</section>
 			
 			<section class="populaires">
-				<h2 class="W3C_Validator">_</h2> <!-- W3C Validator No Error -->
+				<!-- <h2 class="W3C_Validator">_</h2> W3C Validator No Error -->
 
 				<div class="populairesTitle">
-					<h2>Les plus populaires</h2>
+					<!-- <h2>Les plus populaires</h2> -->
 	
 					<figure>
-						<i class="fas fa-chart-line"></i>
+						<!-- <i class="fas fa-chart-line"></i> -->
 					</figure>
 				</div>
 				
 				<div class="populairesPhotos">
 					
-					<a href="Hotel_Le_soleil_du_matin.jpg">
+					<!-- <a href="Hotel_Le_soleil_du_matin.jpg">
 						<figure class="thumbnails">
 							
 							<img src="images/2_populaires/4_small/S_pop_01.jpg" alt="Hotel Room">	
@@ -379,9 +395,9 @@
 							</figcaption>
 
 						</figure>
-					</a>
+					</a> -->
 
-					<a href="Au_coeur_de_l_eau_Chambres_d_hotes.jpg">
+					<!-- <a href="Au_coeur_de_l_eau_Chambres_d_hotes.jpg">
 						<figure class="thumbnails">
 							
 							<img src="images/2_populaires/4_small/S_pop_02.jpg" alt="Hotel Room">	
@@ -415,9 +431,9 @@
 							</figcaption>
 
 						</figure>
-					</a>
+					</a> -->
 
-					<a href="Hotel_Tout_bleu_et_Blanc.jpg">
+					<!-- <a href="Hotel_Tout_bleu_et_Blanc.jpg">
 						<figure class="thumbnails">
 							
 							<img src="images/2_populaires/4_small/S_pop_03.jpg" alt="Hotel Room">	
@@ -451,7 +467,7 @@
 							</figcaption>
 
 						</figure>
-					</a>
+					</a> -->
 
 				</div>
 			</section>
@@ -459,11 +475,11 @@
 		</section>
 		
 		<section class="activites" id="activitiesAnchor">
-			<h2>Activités à Marseille</h2>
+			<!-- <h2>Activités à Marseille</h2> -->
 			
 			<div class="activitesPhotos">
 				
-				<a href="Vieux_Port.jpg" class="thumbnails">
+				<!-- <a href="Vieux_Port.jpg" class="thumbnails">
 					<figure>
 						<img src="images/3_activites/4_small/S_acti_01.jpg" alt="Landscape">	
 						
@@ -471,11 +487,11 @@
 							<h2>Vieux Port</h2>						
 						</figcaption>
 					</figure>
-				</a>
+				</a> -->
 				
 				<div class="thumbnails">
 					
-					<a href="Fort_de_Pomegues.jpg">
+					<!-- <a href="Fort_de_Pomegues.jpg">
 						<figure>
 							<img src="images/3_activites/4_small/S_acti_02.jpg" alt="Landscape" class="Pict_2">	
 							
@@ -493,11 +509,11 @@
 								<h2>Îles du Frioul</h2>						
 							</figcaption>
 						</figure>
-					</a>
+					</a> -->
 				
 				</div>
 				
-				<a href="Parc_National_des_Calanques.jpg" class="thumbnails">
+				<!-- <a href="Parc_National_des_Calanques.jpg" class="thumbnails">
 					<figure>
 						<img src="images/3_activites/4_small/S_acti_04.jpg" alt="Landscape">	
 						
@@ -505,11 +521,11 @@
 							<h2>Parc National des Calanques</h2>						
 						</figcaption>
 					</figure>
-				</a>
+				</a> -->
 				
 				<div class="thumbnails">
 					
-					<a href="Notre_Dame_de_la_Garde.jpg">
+					<!-- <a href="Notre_Dame_de_la_Garde.jpg">
 						<figure>
 							<img src="images/3_activites/4_small/S_acti_05.jpg" alt="Landscape" class="Pict_5">	
 							
@@ -528,7 +544,7 @@
 							</figcaption>
 						</figure>
 					</a>
-				
+				 -->
 				</div>
 
 			</div>

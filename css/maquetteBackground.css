@@ -21,3 +21,15 @@
 
 	opacity: 50%;
 }
+
+
+.maquetteSmartphone {
+	background-image: url("../Maquette iPhone 8 - 1.png");
+	background-repeat: no-repeat;
+	position: absolute;
+
+	width: 375px;
+	height: 4550px;
+	
+	opacity: 50%;
+} 
