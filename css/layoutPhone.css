@@ -70,6 +70,9 @@ header {
             margin-top: 4%;
 
 			padding-top: 0%;
+			padding-bottom: 12px;
+
+			border-bottom: #F2F2F2 solid 3px;
 		}
 		
 
@@ -104,14 +107,12 @@ header {
                     .menu li a {
                         text-decoration: none;
                         
-                        margin-left: -95%;
+                        margin-left: -40%;
                         
                         padding-bottom: 20%;
-                        padding-right: 104%;
-                        padding-left: 95%;
-                        
-                        border-bottom: #F2F2F2 solid 3px;
-                        
+                        padding-right: 70%;
+                        padding-left: 70%;
+                                               
                         color: black;
                         
                         /* background-color: orange; */
@@ -121,10 +122,10 @@ header {
 					.menu li a.active {
 						text-decoration: none;
 
-						margin-left: -35%;
+						margin-left: -40%;
 
 						padding-bottom: 11%;
-						padding-right: 34%;
+						padding-right: 35%;
 						padding-left: 35%;
 
 						border-bottom:  #0065FC solid 3px;
@@ -158,6 +159,8 @@ header {
 		display: flex;
 		flex-direction: column;
 
+		margin-top: -4%;
+
 		/* background-color: greenyellow; */
 	}
 	
@@ -190,13 +193,15 @@ header {
 	/* =============================== */
 	.rechercher {
 		display: flex;
-		justify-content: start;
+		justify-content: center;
 
-		margin-top: 5.2%;
-		margin-left: 5.7%;
+		margin: 5%;
+		margin-left: 10%;
+		margin-right: 10%;
+
+		padding-right: 0%;
 
 		height: 52px;
-		width: 89%;
 
 		border-radius: 15px;
 
@@ -286,7 +291,7 @@ header {
 	/* Nav */
 	/* =============================== */
 	nav {		
-		margin-top: 7%;
+		margin-top: 2%;
         margin-left: 4%;
         
 		/* background-color: greenyellow; */
@@ -510,6 +515,8 @@ header {
 			/* =============================== */
 			.hebergementsPhotos .thumbnails {
 				display: flex;
+				flex-wrap: wrap;
+				align-content: center;
 				
 				position: relative;
 
@@ -535,6 +542,8 @@ header {
 				.hebergementsPhotos .thumbnails Img {
 					object-fit: cover;
 
+					margin-top: -75px;
+
 					width: 100%;
 					height: 115px;
 
@@ -551,14 +560,12 @@ header {
 					align-content: space-around;
 					
 					position: absolute;
-					
-					margin-top: 33.5%;
-					
+
+					margin-bottom: -115px;
+									
 					padding: 3%;
 					padding-bottom: 1%;
 					padding-left: 3%;
-					
-					width: 222px;
 					
 					border-radius: 0px 0px 20px 20px;
 					
@@ -832,21 +839,20 @@ header {
 /* 			----  SECTION  ----  Activités  ---- */
 /* ============================================================================================================= */
 .activites {
-	padding: 1%;
-	padding-bottom: 2.2%;
-	
-	/* background-color: darkturquoise; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
 }
 
 
 	.activites h2 {
 		font-size: 136%;
 
-		margin: 1%;
-		margin-top: 1.7%;
-		margin-bottom: 0%;
-
-		padding-left: 1.6%;
+		margin: 8.5%;
+		margin-left: 0%;
+		margin-bottom: 8%;
+		margin-right: 30%;
 
 		/* background-color: lime; */
 	}
@@ -857,13 +863,15 @@ header {
 	/* =============================== */
 	.activitesPhotos {
 		display: flex;
-		justify-content: space-between;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: space-between;
 
-		margin: 1%;
-		margin-left: 1.6%;
-		margin-right: 0%;
-		margin-top: 0.7%;
+		margin: 0%;
+		padding-bottom: 67px;
 		
+		height: 1235px;
+
 		/* background-color: orange; */
 	}	
 	
@@ -872,17 +880,17 @@ header {
 		/* Figure */
 		/* =============================== */
 		.activitesPhotos .thumbnails {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-			align-content: space-between;
-								
 			position: relative;
 
-			margin: 1%;
+			width: 90%;
 			
 			/* background-color: darkviolet; */
 		}
+
+
+			.activitesPhotos .thumbnails a {
+				margin: 3%;
+			}
 		
 		
 		/* =============================== */
@@ -906,11 +914,11 @@ header {
 			/* =============================== */
 			/* Img */
 			/* =============================== */
-			.activitesPhotos .thumbnails Img {
+			.activitesPhotos .thumbnails Img, .Pict_2, .Pict_3, .Pict_5, .Pict_6 {
 				object-fit: cover;
 				
-				width: 305px;
-				height: 445px;
+				width: 100%;
+				height: 188px;
 			
 				border-radius: 20px;
 			}
@@ -945,52 +953,7 @@ header {
 					}
 			
 			
-			/* =============================== */
-			/* --- Img --- Pict 2 --- */
-			/* =============================== */
-			.activitesPhotos .thumbnails figure .Pict_2 {
-				object-fit: cover;
-				
-				height: 234px;
 			
-				border-radius: 20px;
-			}
-
-
-			/* =============================== */
-			/* --- Img --- Pict 3 --- */
-			/* =============================== */
-			.activitesPhotos .thumbnails figure .Pict_3 {
-				object-fit: cover;
-				
-				height: 166px;
-			
-				border-radius: 20px;
-			}
-
-
-			/* =============================== */
-			/* --- Img --- Pict 5 --- */
-			/* =============================== */
-			.activitesPhotos .thumbnails figure .Pict_5 {
-				object-fit: cover;
-				
-				height: 194px;
-			
-				border-radius: 20px;
-			}
-
-
-			/* =============================== */
-			/* --- Img --- Pict 6 --- */
-			/* =============================== */
-			.activitesPhotos .thumbnails figure .Pict_6 {
-				object-fit: cover;
-				
-				height: 209px;
-			
-				border-radius: 20px;
-			}
 
 
 				/* =============================== */
@@ -1019,24 +982,7 @@ header {
 						padding-left: 6.8%;
 						
 						color: black;
-					}
-
-
-		/* ============================================================== */
-		/* --- Figure On Hover ---*/
-		/* ============================================================== */
-		.activitesPhotos .thumbnails figure Img:hover {
-			opacity: 60%;
-		}
-
-
-		/* ============================================================== */
-		/* --- Figure On Click ---*/
-		/* ============================================================== */
-		.activitesPhotos .thumbnails figure:active {
-			background-color: #0065FC;
-			border-radius: 20px;
-		}		
+					}	
 	
 
 
@@ -1046,10 +992,12 @@ header {
 /* ============================================================================================================= */
 footer {
 	display: flex;
-	justify-content: flex-start;
+	flex-wrap: wrap;
+	justify-content: start;
+	align-content: space-between;
 
-	width: 100.9%;
-    height: 219px;
+	padding-top: 4%;
+	padding-bottom: 5%;
 	
 	background-color: #F2F2F2;
 }
@@ -1059,9 +1007,7 @@ footer {
 	/* Div */
 	/* =============================== */
 	footer div {
-		margin: 1%;
-		
-		width: 29.5%;
+		width: 100%;
 		
 		/* background-color: orange; */
 	}
@@ -1070,8 +1016,9 @@ footer {
 		footer div h2 {
 			/* font-size: 100%; */
 
+			margin: 0%;
 			margin-top: 8%;
-			margin-left: 8.6%;
+			margin-left: 7.6%;
 		}
 	
 		
@@ -1086,7 +1033,7 @@ footer {
 			font-weight: 400;
 			font-size: 100%;
 
-			margin-left: -1%;
+			margin-left: -3%;
 			
 			/* background-color: yellowgreen; */
 		}
