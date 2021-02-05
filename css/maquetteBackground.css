@@ -33,3 +33,20 @@
 	
 	opacity: 60%;
 } 
+
+
+.maquetteTablet {
+	background-image: url("../Maquette Tablet.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	
+	width: 1490px;
+	height: 3118px;
+	
+	scale: 51%;
+	
+	top: -761px;
+	left: -362px;
+	
+	opacity: 50%;
+}
