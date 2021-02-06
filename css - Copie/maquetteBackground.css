@@ -32,28 +32,21 @@
 	height: 4550px;
 	
 	opacity: 60%;
-}
+} 
 
 
-.maquetteTabletSmall {
-	background-image: url("../Maquette Tablet Small.png");
+.maquetteTablet {
+	background-image: url("../Maquette Tablet.png");
 	background-repeat: no-repeat;
 	position: absolute;
 	
-	width: 421px;
-	height: 4380px;
+	width: 1490px;
+	height: 3118px;
 	
-	opacity: 50%;
-}
-
-
-.maquetteTabletBig {
-	background-image: url("../Maquette Tablet Big.png");
-	background-repeat: no-repeat;
-	position: absolute;
+	scale: 51%;
 	
-	width: 722px;
-	height: 2230px;
+	top: -761px;
+	left: -362px;
 	
 	opacity: 50%;
 }

@@ -196,12 +196,16 @@ header {
 		justify-content: center;
 
 		margin: 5%;
+		margin-left: 10%;
+		margin-right: 10%;
 
 		padding-right: 0%;
 
 		height: 52px;
 
 		border-radius: 15px;
+
+		background-color: #F2F2F2;
 	}
 
 
@@ -212,6 +216,8 @@ header {
 			display: flex;
 			justify-content: center;
             align-items: center;
+            
+            font-size: 110%;
 
 			margin: 0%;
 			
@@ -228,10 +234,6 @@ header {
 		/* =============================== */
 		.rechercher form {
 			display: flex;
-
-			width: 60%;
-
-			background-color: #F2F2F2;
 		}
 
 
@@ -244,6 +246,8 @@ header {
 				margin-bottom: 1%;
 				
 				padding-left: 7%;
+
+				width: 110%;
 				
 				border: none;
 
@@ -259,7 +263,7 @@ header {
 
 			text-decoration: none;
 
-            margin-left: -1%;
+            margin-left: 1%;
 
 			padding-right: 18px;
 			padding-left: 17px;
