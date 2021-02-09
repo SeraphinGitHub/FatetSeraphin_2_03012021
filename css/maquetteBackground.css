@@ -1,14 +1,16 @@
 
- .maquette {
+.maquette {
 	background-image: url("../Maquette Desktop.png");
 	background-repeat: no-repeat;
 	position: absolute;
 	
-	width: 100%;
-	height: 205%;
+	width: 1440px;
+	height: 1884px;
 	
-	opacity: 60%;
-} 
+	left: 0px;
+	
+	opacity: 50%;
+}
 
 .maquetteSubDivided {
 	background-image: url("../Maquette Desktop - SubDivided.png");

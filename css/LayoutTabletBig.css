@@ -401,8 +401,8 @@
 				justify-content: flex-end;
 				align-items: center;
 
-                margin-top: -6%;
-                margin-right: 3.3%;
+                margin-top: -7%;
+                margin-right: 6.3%;
 
 				/* background-color: greenyellow; */
 			}
@@ -417,7 +417,7 @@
 					align-items: center;
 
                     margin: 0%;
-                    margin-right: 1%;
+                    margin-right: 2%;
 
 					height: 17px;
 					width: 17px;
@@ -438,9 +438,10 @@
 				/* Plus de 500 logements... */
 				.textHeader_Bot p {
                     font-size: 80%;
-                    word-spacing: -60%;
 
 					margin: 0%;
+
+					width: 36%;
 
 					/* background-color: darkviolet; */
 				}
@@ -646,7 +647,7 @@
             flex-wrap: wrap;
             justify-content: center;
 
-            margin-top: 3%;
+            margin-top: 4%;
             padding-bottom: 2.5%;
 
             width: 97%;
