@@ -3,18 +3,6 @@
 /* 			----  Smartphone Portrait ---- */
 /* ============================================================================================================= */
 @media screen and (min-width: 320px) and (max-device-width : 420px) {
-    
-/* =============================== */
-/* Body */
-/* =============================== */
-body {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-
-	margin: 0%;
-}
-
 
 /* ============================================================================================================= */
 /* 			----  HEADER  ---- */
@@ -210,34 +198,10 @@ header {
 
 
 		/* =============================== */
-		/* Figure */
-		/* =============================== */
-		.rechercher figure {
-			display: flex;
-			justify-content: center;
-            align-items: center;
-
-			font-size:  100%;
-
-			margin: 0%;
-			
-			width: 52px;
-			
-			border-radius: 15px 0px 0px 15px;
-
-			background-color: #F2F2F2;
-		}
-
-
-		/* =============================== */
 		/* Form */
 		/* =============================== */
 		.rechercher form {
-			display: flex;
-
 			width: 67%;
-
-			background-color: #F2F2F2;
 		}
 
 
@@ -346,7 +310,7 @@ header {
 
 				margin-bottom: 2%;
 
-                height: 45px;
+                height: 46px;
 
 				border:  lightgray solid 2px;
 				border-radius: 30px;
@@ -428,18 +392,10 @@ header {
 			/* Figure */
 			/* =============================== */
 			.textHeader_Bot figure {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-
-                margin: 0%;
                 margin-bottom: 2%;
 
 				height: 20px;
-				width: 27px;
-				
-				border:  lightgray solid 2px;
-				border-radius: 30px;
+				width: 26px;
 					
 				/* background-color: red; */
 			}
@@ -558,47 +514,7 @@ header {
 					}
 
 
-					/* Figcaption p */
-					.hebergementsPhotos .thumbnails figcaption p {
-						font-size: 88%;
-
-						margin: 1%;
-						margin-bottom: 2.5%;
-						
-						width: 100%;
-						
-						/* background-color: darkviolet; */
-					}
-
 					
-						/* =============================== */
-						/* Figure  --- Stars --- */
-						/* =============================== */
-						
-						/* Figure Stars */
-						.hebergementsPhotos .thumbnails figcaption figure {
-							display: flex;
-
-							margin: 1%;
-
-							/* background-color: tomato; */
-						}
-						
-
-							/* Active Stars */
-							.hebergementsPhotos .thumbnails figcaption .active {
-								font-size: 75%;
-
-								color: #0065FC;
-							}
-
-
-							/* Greyed Out Stars */
-							.hebergementsPhotos .thumbnails figcaption .greyedOut {
-								font-size: 75%;
-
-								color: lightgray;
-							}
 			
 
 
@@ -838,9 +754,9 @@ header {
 		align-content: space-between;
 
 		margin: 0%;
-		padding-bottom: 67px;
+		padding-bottom: 30px;
 		
-		height: 1235px;
+		height: 1260px;
 
 		/* background-color: orange; */
 	}	
@@ -850,16 +766,28 @@ header {
 		/* Figure */
 		/* =============================== */
 		.activitesPhotos .thumbnails {
-			position: relative;
+			display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-content: space-between;
 
-			width: 90%;
+				position: relative;
+
+                width: 90%;
+                
+				margin: 2%;
+				margin-top: 1%;
+				margin-bottom: 1%;
 			
 			/* background-color: darkviolet; */
 		}
 
 
 			.activitesPhotos .thumbnails a {
-				margin: 3%;
+				padding-top: 3%;
+				padding-bottom: 3%;
+
+				width: 100%;
 			}
 		
 		
@@ -876,6 +804,8 @@ header {
 			
 			margin: 0%;
 
+			width: 100%;
+
 			border-radius: 20px;
 			box-shadow: 5px 5px 10px lightgray;
 		}
@@ -884,13 +814,40 @@ header {
 			/* =============================== */
 			/* Img */
 			/* =============================== */
-			.activitesPhotos .thumbnails Img, .Pict_2, .Pict_3, .Pict_5, .Pict_6 {
-				object-fit: cover;
-				
-				width: 100%;
+			.activitesPhotos .thumbnails Img {
 				height: 188px;
-			
-				border-radius: 20px;
+			}
+
+
+			/* =============================== */
+			/* --- Img --- Pict 2 --- */
+			/* =============================== */
+			.activitesPhotos .thumbnails figure .Pict_2 {
+				height: 188px;
+			}
+
+
+			/* =============================== */
+			/* --- Img --- Pict 3 --- */
+			/* =============================== */
+			.activitesPhotos .thumbnails figure .Pict_3 {
+				height: 188px;
+			}
+
+
+			/* =============================== */
+			/* --- Img --- Pict 5 --- */
+			/* =============================== */
+			.activitesPhotos .thumbnails figure .Pict_5 {
+				height: 188px;
+			}
+
+
+			/* =============================== */
+			/* --- Img --- Pict 6 --- */
+			/* =============================== */
+			.activitesPhotos .thumbnails figure .Pict_6 {
+				height: 188px;
 			}
 
 
@@ -966,7 +923,7 @@ footer {
 	justify-content: start;
 	align-content: space-between;
 
-	padding-top: 4%;
+	padding-top: 8%;
 	padding-bottom: 5%;
 	
 	background-color: #F2F2F2;
@@ -987,7 +944,7 @@ footer {
 			/* font-size: 100%; */
 
 			margin: 0%;
-			margin-top: 8%;
+			margin-top: 4%;
 			margin-left: 7.6%;
 		}
 	

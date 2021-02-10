@@ -4,25 +4,12 @@
 /* ============================================================================================================= */
 @media screen and (min-width: 421px) and (max-device-width : 722px) {
     
-	/* =============================== */
-	/* Body */
-	/* =============================== */
-	body {
-		display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-		
-		margin: 0%;
-	}
-
-
 	/* ============================================================================================================= */
 	/* 			----  HEADER  ---- */
 	/* ============================================================================================================= */
 	header {
 		display: flex;
         flex-direction: column;
-        width: 100%;
 		
 		/* background-color: tomato; */
 	}
@@ -58,87 +45,86 @@
 
 
 			/* =============================== */
-		/* Div */
-		/* =============================== */
-		.menu {
-			display: flex;
-			justify-content: space-between;
-            align-items: center;
-            
-            margin-top: 11.5%;
-            margin-right: 5%;
-			margin-left: 5%;
-			
-			/* h3 */
-            font-family: "Raleway-Regular";
-			
-			width: 100%;
-		}
-		
-
+			/* Div */
 			/* =============================== */
-			/* Li */
-			/* =============================== */
-			.menu ul {
+			.menu {
 				display: flex;
-				flex-wrap: wrap;
 				justify-content: space-between;
+				align-items: center;
 				
-				margin: 0%;
-
-				padding: 0%;
-
-				width: 62%;
+				margin-top: 6.7%;
+				margin-right: 4%;
+				margin-left: 4%;
+				
+				/* h3 */
+				font-family: "Raleway-Regular";
+				
+				width: 100%;
 			}
+			
 
-
-				.menu li {
-					list-style: none;
-
-					color: black;
+				/* =============================== */
+				/* Li */
+				/* =============================== */
+				.menu ul {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
 					
-					/* background-color: darkturquoise; */
+					margin: 0%;
+
+					padding: 0%;
+
+					width: 62%;
 				}
 
 
-					.menu li a {
-						text-decoration: none;
+					.menu li {
+						list-style: none;
 
 						color: black;
 						
-						/* background-color: orange; */
+						/* background-color: darkturquoise; */
 					}
 
 
-					.menu li a.active {
-						text-decoration: none;
+						.menu li a {
+							text-decoration: none;
 
-						margin-left: -14%;
+							color: black;
+							
+							/* background-color: orange; */
+						}
 
-						padding-top: 20%;
-						padding-right: 10%;
-						padding-left: 14%;
 
-						border-top:  #0065FC solid 2px;
+						.menu li a.active {
+							text-decoration: none;
 						
-						color: #0065FC;
+							margin-left: -12%;
+						
+							padding-top: 24%;
+							padding-right: 15%;
+							padding-left: 12%;
+						
+							border-top: #0065FC solid 2px;
+							color: #0065FC;
+							
+							/* background-color: orange; */
+						}
 
-						/* background-color: orange; */
-					}
 
+				.menu a.fixed {
+					text-decoration: none;
+					
+					margin-left: 0%;
 
-			.menu a.fixed {
-                text-decoration: none;
-                
-                margin-left: 10%;
+					/* h2 */
+					font-family: "Raleway-Bold";
 
-				/* h2 */
-				font-family: "Raleway-Bold";
+					color: #0065FC;
 
-				color: #0065FC;
-
-				/* background-color: orange; */
-			}
+					/* background-color: orange; */
+				}
 
 
 		/* =============================== */
@@ -148,7 +134,7 @@
 			display: flex;
 			flex-wrap: wrap;
 
-            margin-top: 5%;
+            margin-top: 14%;
             margin-left: 3%;
 
 			/* background-color: greenyellow; */
@@ -158,7 +144,7 @@
 			/* Trouvez votre hébergement ... */
 			.textHeader_Top h2 {
 				font-size: 140%;
-				word-spacing: -25%;
+				word-spacing: -30%;
 				line-height: 140%;
 
 				margin: 0%;
@@ -170,6 +156,7 @@
 			/* En plein centre ville... */
 			.textHeader_Top p {
 				margin-top: 2%;
+				margin-left: 0%;
 				
 				/* background-color: darkviolet; */
 			}
@@ -182,8 +169,10 @@
 			display: flex;
 			justify-content: center;
 
-            margin-top: 2%;
+            margin-top: 2.5%;
+			margin-left: 8%;
 
+			width: 84%;
 			height: 52px;
 
 			border-radius: 15px;
@@ -194,17 +183,8 @@
 			/* Figure */
 			/* =============================== */
 			.rechercher figure {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-
-				margin: 0%;
 				
-				width: 51px;
-				
-				border-radius: 15px 0px 0px 15px;
-
-				background-color: #F2F2F2;
+				width: 64px;
 			}
 
 
@@ -213,8 +193,6 @@
 			/* =============================== */
 			.rechercher form {
 				display: flex;
-
-				border: #F2F2F2 solid 2px;
 			}
 
 
@@ -226,7 +204,7 @@
 					margin-top: 1%;
 					margin-bottom: 1%;
 					
-					padding-left: 10%;
+					padding-left: 9%;
 					
 					border: none;
 
@@ -244,8 +222,8 @@
 
 				margin-left: -1%;
 
-				padding-right: 10px;
-				padding-left: 10px;
+				padding-right: 28px;
+				padding-left: 25px;
 
 				color: white;
 
@@ -269,9 +247,13 @@
 		/* =============================== */
 		/* Nav */
 		/* =============================== */
-		nav {		
-			margin-top: 6%;
-			margin-left: 3%;
+		nav {
+			display: flex;
+			flex-wrap: wrap;
+			align-content: space-between;
+
+			margin-top: 5%;
+			margin-left: 1%;
 			
 			/* background-color: greenyellow; */
 		}
@@ -280,6 +262,8 @@
 			/* Filtres */
 			nav h2 {
 				margin: 0%;
+
+				width: 100%;
 
 				/* background-color: orange; */
 			}
@@ -291,15 +275,19 @@
 			.filtres {
 				display: flex;
 				flex-wrap: wrap;
+				justify-content: flex-start;
 				align-content: space-between;
 				
 				list-style: none;
 
-				margin-top: 2.5%;
+				margin-top: 1.5%;
 				margin-left: -1%;
 				margin-bottom: 0%;
 				
 				padding-left: 0%;
+
+				width: 100%;
+
 				/* background-color: darkturquoise; */
 			}
 
@@ -323,19 +311,8 @@
 					/* Figure */
 					/* =============================== */
 					.filtres li figure {
-						display: flex;
-						position: absolute;
-						justify-content: center;
-						align-items: center;
-
-						margin: -2px;
-
-						height: 50px;
 						width: 50px;
-						
-						border-radius: 30px;
-						
-						background-color: #DEEBFF;
+						height: 50px;
 					}
 
 
@@ -357,10 +334,10 @@
 							align-items: center;
 
 							/* h2 */
-							font-family: "Raleway-Bold";
+							font-size: 100%;
 	
-							padding-right: 20px;
-							padding-left: 58px;
+							padding-right: 11px;
+							padding-left: 65px;
 							
 							border-radius: 30px;
 							
@@ -376,7 +353,10 @@
 				justify-content: flex-start;
 				align-items: center;
 
+				margin: 0%;
                 margin-top: 1%;
+
+				padding: 0%;
 
 				/* background-color: greenyellow; */
 			}
@@ -443,17 +423,18 @@
 		/* ----  SECTION  ----  Hébergements
 		/* ==================================================== */
 		.hebergements {
-            width: 97%;
-            
+			margin: 0%;
             margin-top: 7%;
             
+            width: 97%;
+
             border-radius: 20px;
 		}
 		
 
 			/* Hébergements à Marseille */
 			.hebergements h2 {
-                margin-left: 5%;
+                margin: 3%;
 			}
 
 
@@ -464,6 +445,10 @@
 				display: flex;
 				flex-wrap: wrap;
 				justify-content: center;
+
+				margin: 0%;
+
+				width: 100%;
 
                 /* background-color: orange; */
 			}
@@ -483,21 +468,9 @@
 					flex-wrap: wrap;
 					align-content: center;
 					
-					position: relative;
-
-					margin: 0%;
-					
-					padding: 2%;
+					padding: 5px;
 
 					height: 250px;
-
-					border-radius: 20px;
-
-					box-shadow: 5px 5px 10px lightgray;
-					
-					color: black;
-					
-					background-color: white;
 				}
 
 
@@ -505,14 +478,9 @@
 					/* Img */
 					/* =============================== */
 					.hebergementsPhotos .thumbnails Img {
-						object-fit: cover;
-
 						margin-top: -75px;
 
-						width: 100%;
 						height: 70%;
-
-						border-radius: 17px 17px 0px 0px;
 					}
 
 
@@ -520,21 +488,9 @@
 					/* Figcaption */
 					/* =============================== */
 					.hebergementsPhotos .thumbnails figcaption {
-						display: flex;
-						flex-wrap: wrap;
-						align-content: space-around;
-						
-						position: absolute;
+						margin-bottom: -60px;
 
-						margin-bottom: -180px;
-										
-						padding: 3%;
-						padding-bottom: 1%;
-						padding-left: 3%;
-						
-						border-radius: 0px 0px 20px 20px;
-						
-						/* background-color: yellowgreen; */
+						padding-left: 6%;
 					}
 					
 
@@ -551,56 +507,9 @@
 						}
 
 
-						/* Figcaption p */
-						.hebergementsPhotos .thumbnails figcaption p {
-							font-size: 88%;
-
-							margin: 1%;
-							margin-bottom: 2.5%;
-							
-							width: 100%;
-							
-							/* background-color: darkviolet; */
-						}
-
-						
-							/* =============================== */
-							/* Figure  --- Stars --- */
-							/* =============================== */
-							
-							/* Figure Stars */
-							.hebergementsPhotos .thumbnails figcaption figure {
-								display: flex;
-
-								margin: 1%;
-
-								/* background-color: tomato; */
-							}
-							
-
-								/* Active Stars */
-								.hebergementsPhotos .thumbnails figcaption .active {
-									font-size: 75%;
-
-									color: #0065FC;
-								}
-
-
-								/* Greyed Out Stars */
-								.hebergementsPhotos .thumbnails figcaption .greyedOut {
-									font-size: 75%;
-
-									color: lightgray;
-								}
-				
-
-
 			/* Afficher plus */
 			.hebergements h3 {
-				font-family: "Raleway-Bold";
-
-				margin: 2.5%;
-				margin-left: 5%;
+				margin: 6%;
 			}
 
 
@@ -614,14 +523,15 @@
             flex-wrap: wrap;
             justify-content: center;
 
-            margin-top: 3%;
-            padding-bottom: 2.5%;
+			margin: 0%;
+            margin-top: 5%;
+			
+			padding: 0%;
+			padding-bottom: 2.5%;
 
             width: 97%;
-            
-            border-radius: 20px;
-			
-			background-color: #F2F2F2;
+
+			border-radius: 20px;
 		}
 		
 
@@ -629,11 +539,12 @@
 			/* Div */
 			/* =============================== */
 			.populairesTitle {
-				display: flex;
-                justify-content: flex-start;
+				margin: 0%;
+				margin-top: 2%;
+                margin-left: 1.5%;
+				
+				padding: 0%;
 
-                margin-left: 3%;
-                
                 width: 100%;
 
 				/* background-color: lime; */
@@ -644,13 +555,13 @@
 				/* Figure */
 				/* =============================== */
 				.populairesTitle figure {
-					line-height: 100%;
+					margin: 0%;
+					margin-top: 0.3%;
+					margin-right: 14.5%;
+					
+					padding: 0%;
 				}
 
-
-				.populairesTitle figure i {
-					font-size: 120%;
-				}
 
 
 			/* =============================== */
@@ -661,7 +572,9 @@
 				flex-wrap: wrap;
                 justify-content: center;
 
-                width: 80%;
+				margin-top: 6%;
+
+                width: 93%;
 
 				/* background-color: darkturquoise; */
 			}
@@ -690,15 +603,7 @@
 					padding: 1%;
 
 					width: 100%;
-					height: 150px;
-					
-					border-radius: 17px;
-
-					box-shadow: 5px 5px 10px lightgray;
-					
-					color: black;
-					
-					background-color: white;
+					height: 140px;
 				}
 
 
@@ -706,11 +611,7 @@
 						/* Img */
 						/* =============================== */
 						.populairesPhotos a .thumbnails Img {
-							object-fit: cover;
-
-							width: 50%;
-
-							border-radius: 15px 0px 0px 15px;
+							width: 45%;
 						}
 
 
@@ -724,12 +625,10 @@
 
 							position: absolute;
 
-							margin-left: 53%;
+							margin-left: 45%;
 
-                            width: 51%;
-							height: 92%;
-
-							border-radius: 0px 20px 20px 0px;
+                            width: 50%;
+							height: 98px;
 
 							/* background-color: yellowgreen; */
 						}
@@ -807,7 +706,7 @@
 
 
 		.activites h2 {
-            margin-left: 4%;
+            margin: 3%;
 
 			/* background-color: lime; */
 		}
@@ -836,7 +735,7 @@
 
 				position: relative;
 
-                width: 70%;
+                width: 92%;
                 
 				margin: 2%;
 				margin-top: 1%;
@@ -877,13 +776,45 @@
 						/* =============================== */
 						/* Img */
 						/* =============================== */
-						.activitesPhotos .thumbnails Img, .Pict_2, .Pict_3, .Pict_5, .Pict_6 {
+						.activitesPhotos .thumbnails Img {
 							object-fit: cover;
 							
 							width: 100%;
-							height: 275px;
+							height: 250px;
 						
 							border-radius: 20px;
+						}
+
+
+						/* =============================== */
+						/* --- Img --- Pict 2 --- */
+						/* =============================== */
+						.activitesPhotos .thumbnails figure .Pict_2 {
+							height: 250px;
+						}
+
+
+						/* =============================== */
+						/* --- Img --- Pict 3 --- */
+						/* =============================== */
+						.activitesPhotos .thumbnails figure .Pict_3 {
+							height: 250px;
+						}
+
+
+						/* =============================== */
+						/* --- Img --- Pict 5 --- */
+						/* =============================== */
+						.activitesPhotos .thumbnails figure .Pict_5 {
+							height: 250px;
+						}
+
+
+						/* =============================== */
+						/* --- Img --- Pict 6 --- */
+						/* =============================== */
+						.activitesPhotos .thumbnails figure .Pict_6 {
+							height: 250px;
 						}
 
 

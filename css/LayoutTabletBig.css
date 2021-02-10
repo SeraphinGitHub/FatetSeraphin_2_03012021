@@ -4,29 +4,9 @@
 /* ============================================================================================================= */
 @media screen and (min-width: 723px) and (max-device-width : 1024px) {
     
-	/* =============================== */
-	/* Body */
-	/* =============================== */
-	body {
-		display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-		
-		margin: 0%;
-	}
-
-
 	/* ============================================================================================================= */
 	/* 			----  HEADER  ---- */
 	/* ============================================================================================================= */
-	header {
-		display: flex;
-        flex-direction: column;
-        width: 100%;
-		
-		/* background-color: tomato; */
-	}
-
 
 		/* =============================== */
 		/* Nav */
@@ -48,8 +28,8 @@
 			/* Img */
 			/* =============================== */
 			.logo {
-				margin-top: 2%;
-				margin-left: 2%;
+				margin-top: 3.5%;
+				margin-left: 3%;
 				
 				height: 45px;
 
@@ -58,91 +38,39 @@
 
 
 			/* =============================== */
-		/* Div */
-		/* =============================== */
-		.menu {
-			display: flex;
-			justify-content: space-around;
-            align-items: center;
-            
-            margin-top: 12.5%;
-            margin-right: 4%;
-			
-			/* h3 */
-            font-family: "Raleway-Regular";
-            font-size: 90%;
-			
-			width: 37%;
-
-			padding-top: 1.1%;
-		}
-		
-
+			/* Div */
 			/* =============================== */
-			/* Li */
-			/* =============================== */
-			.menu ul {
-				display: flex;
-				flex-wrap: wrap;
-				justify-content: space-between;
-				
-				margin: 0%;
+			.menu {			
+				margin-top: 6%;
+				margin-right: 4%;
+				margin-left: 4%;
 
 				padding: 0%;
-
-				width: 100%;
+				
+				width: 47%;
 			}
+			
 
-
-				.menu li {
-					list-style: none;
-
-					margin: 1%;
-
-					color: black;
-					
-					/* background-color: darkturquoise; */
+				/* =============================== */
+				/* Li */
+				/* =============================== */
+				.menu ul {
+					width: 65%;
 				}
 
 
-					.menu li a {
-						text-decoration: none;
-
-						color: black;
+						.menu li a.active {					
+							margin-left: -12%;
 						
-						/* background-color: orange; */
-					}
+							padding-top: 24%;
+							padding-right: 15%;
+							padding-left: 12%;
+						}
 
 
-					.menu li a.active {
-						text-decoration: none;
-
-						margin-left: -14%;
-
-						padding-top: 20%;
-						padding-right: 10%;
-						padding-left: 14%;
-
-						border-top:  #0065FC solid 2px;
-						
-						color: #0065FC;
-
-						/* background-color: orange; */
-					}
-
-
-			.menu a.fixed {
-                text-decoration: none;
-                
-                margin-left: 10%;
-
-				/* h2 */
-				font-family: "Raleway-Bold";
-
-				color: #0065FC;
-
-				/* background-color: orange; */
-			}
+				.menu a.fixed {
+					margin-left: 0%;
+				}
 
 
 		/* =============================== */
@@ -150,12 +78,12 @@
 		/* =============================== */
 		.textHeader_Top {
 			display: flex;
-			flex-direction: column;
+			flex-wrap: wrap;
 
-            margin-top: -18.7%;
-            margin-left: 16%;
-            
-            width: 48%;
+            margin-top: 3%;
+            margin-left: 3%;
+
+			width: 43%;
 
 			/* background-color: greenyellow; */
 		}
@@ -163,13 +91,11 @@
 		
 			/* Trouvez votre hébergement ... */
 			.textHeader_Top h2 {
-				font-size: 120%;
-				line-height: 162%;
+				font-size: 140%;
+				word-spacing: -30%;
+				line-height: 140%;
 
-				margin-top: 13.1%;
-				margin-right: 13%;
-                margin-left: 5%;
-                margin-bottom: 3%;
+				margin: 0%;
 				
 				/* background-color: darkturquoise; */
 			}
@@ -177,11 +103,8 @@
 
 			/* En plein centre ville... */
 			.textHeader_Top p {
-                font-size: 90%;
-
-				margin-top: -0.5%;
-				margin-right: 1%;
-				margin-left: 5%;
+				margin-top: 2%;
+				margin-left: 0%;
 				
 				/* background-color: darkviolet; */
 			}
@@ -192,19 +115,12 @@
 		/* =============================== */
 		.rechercher {
 			display: flex;
-			justify-content: flex-end;
+			justify-content: center;
 
-            margin-top: 2%;
-			margin-left: 55%;
-			margin-right: 2%;
+            margin-top: 3.5%;
+			margin-left: 2%;
 
-			padding-right: 0%;
-
-			height: 45px;
-
-			border-radius: 15px;
-
-			background-color: #F2F2F2;
+			width: 50%;
 		}
 
 
@@ -212,19 +128,7 @@
 			/* Figure */
 			/* =============================== */
 			.rechercher figure {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				
-				font-size: 110%;
-
-				margin: 0%;
-				
-				width: 51px;
-				
-				border-radius: 15px 0px 0px 15px;
-
-				background-color: #F2F2F2;
+				width: 64px;
 			}
 
 
@@ -236,19 +140,8 @@
 			}
 
 
-				.rechercher input {
-					/* h2 */
-					font-family: "Raleway-Bold";
-					font-size: 100%;
-
-					margin-top: 1%;
-					margin-bottom: 1%;
-					
-					padding-left: 7%;
-
-					width: 110%;
-					
-					border: none;
+				.rechercher input {					
+					padding-left: 9%;
 
 					/* background-color: violet; */
 				}
@@ -256,27 +149,11 @@
 			
 			/* Rechercher */
 			.rechercher a {
-				display: flex;
-				justify-content: center;
-				align-items: center;
+				margin-left: -1%;
 
-				text-decoration: none;
-
-				margin-left: 1%;
-
-				padding-right: 10px;
-				padding-left: 10px;
-
-				color: white;
-
-				border-radius: 0px 15px 15px 0px;
-				background-color: #0065FC;
+				padding-right: 28px;
+				padding-left: 25px;
             }
-            
-
-                .rechercher a h2 {
-                    font-size: 100%;
-                }
 
 				
 				.rechercher a .searchIcon {
@@ -289,9 +166,12 @@
 		/* =============================== */
 		/* Nav */
 		/* =============================== */
-		nav {		
-			margin-top: -12%;
-			margin-left: 3.6%;
+		nav {
+			display: flex;
+			flex-wrap: wrap;
+			align-content: space-between;
+
+			margin-top: 0.5%;
 			
 			/* background-color: greenyellow; */
 		}
@@ -299,7 +179,9 @@
 
 			/* Filtres */
 			nav h2 {
-                font-size: 90%;
+				margin: 0%;
+
+				width: 100%;
 
 				/* background-color: orange; */
 			}
@@ -311,31 +193,22 @@
 			.filtres {
 				display: flex;
 				flex-wrap: wrap;
+				justify-content: flex-start;
 				align-content: space-between;
-				
-				list-style: none;
 
-				margin-top: 3%;
+				margin-top: 1.5%;
 				margin-left: -1%;
 				margin-bottom: 0%;
-				
-				padding-left: 0%;
-                
-                width: 55%;
+
+				width: 100%;
+
 				/* background-color: darkturquoise; */
 			}
 
 				.filtres li {
-					display: flex;
-					justify-content: space-between;
+					margin-right: 0.4%;
 
-					margin-right: 3.5%;
-					margin-bottom: 4%;
-
-					height: 40px;
-
-					border:  lightgray solid 2px;
-					border-radius: 30px;
+					height: 46px;
 					
 					/* background-color: orange; */
 				}
@@ -345,49 +218,21 @@
 					/* Figure */
 					/* =============================== */
 					.filtres li figure {
-						display: flex;
-						position: absolute;
-						justify-content: center;
-						align-items: center;
-
-						margin: -2px;
-
-						height: 44px;
-						width: 44px;
-						
-						border-radius: 30px;
-						
-						background-color: #DEEBFF;
+						width: 50px;
+						height: 50px;
 					}
 
 
-						.filtres li figure i {
-							color: #0065FC;
-						}
-
-					/* =============================== */
-					/* Div */
-					/* =============================== */
-					.filtresOnHover {
-						display: flex;
-					}
-
-
+						/* =============================== */
+						/* Div */
+						/* =============================== */
 						.filtresOnHover a {
-							display: flex;
-							justify-content: center;
-							align-items: center;
 
 							/* h2 */
-							font-family: "Raleway-Bold";
-							font-size: 90%;
-
-							margin: 0%;
+							font-size: 100%;
 	
-							padding-right: 10px;
-							padding-left: 50px;
-							
-							border-radius: 30px;
+							padding-right: 17px;
+							padding-left: 53px;
 							
 							/* background-color: darkturquoise; */
 						}
@@ -397,12 +242,9 @@
 			/* Div */
 			/* =============================== */
 			.textHeader_Bot {
-				display: flex;
-				justify-content: flex-end;
-				align-items: center;
+				margin: 0%;
 
-                margin-top: -7%;
-                margin-right: 6.3%;
+				padding: 0%;
 
 				/* background-color: greenyellow; */
 			}
@@ -416,11 +258,11 @@
 					justify-content: center;
 					align-items: center;
 
-                    margin: 0%;
+                    margin: 1.5%;
                     margin-right: 2%;
 
-					height: 17px;
-					width: 17px;
+					height: 20px;
+					width: 20px;
 					
 					border:  lightgray solid 2px;
 					border-radius: 30px;
@@ -430,18 +272,16 @@
 				
 				
 					.textHeader_Bot figure i {
-						font-size: 60%;
+						font-size: 75%;
 						color: #0065FC;
 					}
 				
 				
 				/* Plus de 500 logements... */
 				.textHeader_Bot p {
-                    font-size: 80%;
-
 					margin: 0%;
 
-					width: 36%;
+					width: 60%;
 
 					/* background-color: darkviolet; */
 				}
@@ -471,21 +311,21 @@
 		/* ----  SECTION  ----  Hébergements
 		/* ==================================================== */
 		.hebergements {
-            width: 97%;
+			margin: 0%;
+            margin-top: 3%;
             
-            margin-top: 2%;
-            
+            width: 98%;
+
             border-radius: 20px;
-            
-            background-color: #F2F2F2;
 		}
 		
 
 			/* Hébergements à Marseille */
 			.hebergements h2 {
-                font-size: 115%;
-                
-                margin-left: 5%;
+				font-size:  123%;
+
+                margin: 2%;
+				margin-bottom: 1%;
 			}
 
 
@@ -497,13 +337,17 @@
 				flex-wrap: wrap;
 				justify-content: center;
 
+				margin: 0%;
+
+				width: 100%;
+
                 /* background-color: orange; */
 			}
 
 
 				.hebergementsPhotos a {
-                    width: 30%;
-                    margin: 1.3%;
+                    width: 31%;
+                    margin: 1%;
 				}
 
 
@@ -515,21 +359,9 @@
 					flex-wrap: wrap;
 					align-content: center;
 					
-					position: relative;
+					padding: 5px;
 
-					margin: 0%;
-					
-					padding: 1.5%;
-
-					height: 190px;
-
-					border-radius: 20px;
-
-					box-shadow: 5px 5px 10px lightgray;
-					
-					color: black;
-					
-					background-color: white;
+					height: 220px;
 				}
 
 
@@ -537,14 +369,9 @@
 					/* Img */
 					/* =============================== */
 					.hebergementsPhotos .thumbnails Img {
-						object-fit: cover;
-
 						margin-top: -75px;
 
-						width: 100%;
-						height: 115px;
-
-						border-radius: 17px 17px 0px 0px;
+						height: 65%;
 					}
 
 
@@ -552,88 +379,17 @@
 					/* Figcaption */
 					/* =============================== */
 					.hebergementsPhotos .thumbnails figcaption {
-						display: flex;
-						flex-wrap: wrap;
-						align-content: space-around;
-						
-						position: absolute;
+						margin: 0%;
+						margin-bottom: -150px;
 
-						margin-bottom: -115px;
-										
-						padding: 3%;
-						padding-bottom: 1%;
-						padding-left: 3%;
-						
-						border-radius: 0px 0px 20px 20px;
-						
-						/* background-color: yellowgreen; */
-					}
-					
-
-						/* Figcaption h2 */
-						.hebergementsPhotos .thumbnails figcaption h2 {
-							font-size: 97%;
-
-							margin: 1%;
-							margin-bottom: 2.5%;			
-							
-							width: 100%;
-							
-							/* background-color: violet; */
-						}
-
-
-						/* Figcaption p */
-						.hebergementsPhotos .thumbnails figcaption p {
-							font-size: 88%;
-
-							margin: 1%;
-							margin-bottom: 2.5%;
-							
-							width: 100%;
-							
-							/* background-color: darkviolet; */
-						}
-
-						
-							/* =============================== */
-							/* Figure  --- Stars --- */
-							/* =============================== */
-							
-							/* Figure Stars */
-							.hebergementsPhotos .thumbnails figcaption figure {
-								display: flex;
-
-								margin: 1%;
-
-								/* background-color: tomato; */
-							}
-							
-
-								/* Active Stars */
-								.hebergementsPhotos .thumbnails figcaption .active {
-									font-size: 75%;
-
-									color: #0065FC;
-								}
-
-
-								/* Greyed Out Stars */
-								.hebergementsPhotos .thumbnails figcaption .greyedOut {
-									font-size: 75%;
-
-									color: lightgray;
-								}
-				
+						padding: 0%;
+						padding-left: 6%;
+					}				
 
 
 			/* Afficher plus */
 			.hebergements h3 {
-				font-family: "Raleway-Bold";
-				font-size: 100%;
-
-				margin: 2.5%;
-				margin-left: 5%;
+				margin: 4%;
 			}
 
 
@@ -647,14 +403,13 @@
             flex-wrap: wrap;
             justify-content: center;
 
-            margin-top: 4%;
-            padding-bottom: 2.5%;
-
-            width: 97%;
-            
-            border-radius: 20px;
+			margin: 0%;
+            margin-top: 1%;
 			
-			background-color: #F2F2F2;
+			padding: 0%;
+			padding-bottom: 1.5%;
+
+            width: 98%;
 		}
 		
 
@@ -662,21 +417,21 @@
 			/* Div */
 			/* =============================== */
 			.populairesTitle {
-				display: flex;
-                justify-content: flex-start;
+				justify-content: flex-start;
 
-                margin-left: 3%;
-                
+				margin: 0%;
+                margin-left: 0.5%;
+				
+				padding: 0%;
+
                 width: 100%;
 
 				/* background-color: lime; */
 			}
 
 
-				/* Les plus populaires */
-				.populaires h2 {
-                    font-size: 100%;
-                    word-spacing: 50%;
+				.populairesTitle h2 {
+					font-size: 113%;
 				}
 
 
@@ -684,15 +439,9 @@
 				/* Figure */
 				/* =============================== */
 				.populairesTitle figure {
-					margin: 0%;
-                    margin-top: 1.7%;
-                    margin-left: 6%;
+					margin-left: 2%;
 				}
 
-
-				.populairesTitle figure i {
-					font-size: 120%;
-				}
 
 
 			/* =============================== */
@@ -703,7 +452,7 @@
 				flex-wrap: wrap;
                 justify-content: space-between;
 
-                width: 96%;
+				width: 95.5%;
 
 				/* background-color: darkturquoise; */
 			}
@@ -713,7 +462,9 @@
 				display: flex;
 				justify-content: center;
 
-				width: 32.4%;
+				margin: 0%;
+
+				width: 31%;
 			}
 				
 
@@ -727,18 +478,10 @@
 
 					margin: 0%;
 
-					padding: 1.5%;
+					padding: 5px;
 
-					width: 335px;
-					height: 106px;
-					
-					border-radius: 17px;
-
-					box-shadow: 5px 5px 10px lightgray;
-					
-					color: black;
-					
-					background-color: white;
+					width: 100%;
+					height: 140px;
 				}
 
 
@@ -746,11 +489,7 @@
 						/* Img */
 						/* =============================== */
 						.populairesPhotos a .thumbnails Img {
-							object-fit: cover;
-
-							width: 97px;
-
-							border-radius: 15px 0px 0px 15px;
+							width: 45%;
 						}
 
 
@@ -760,16 +499,14 @@
 						.populairesPhotos a .thumbnails figcaption {
 							display: flex;
 							flex-wrap: wrap;
-							align-content: space-between;
+							align-content: space-around;
 
 							position: absolute;
 
-							margin-left: 46%;
+							margin-left: 45%;
 
-                            width: 51%;
-							height: 103px;
-
-							border-radius: 0px 20px 20px 0px;
+                            width: 50%;
+							height: 126px;
 
 							/* background-color: yellowgreen; */
 						}
@@ -777,12 +514,9 @@
 
 							/* Figcaption h2 */
 							.populairesPhotos a .thumbnails figcaption h2 {
-								font-size: 90%;
-								line-height: 110%;
-
 								margin: 0%;			
 								
-								width: 100%;
+								width: 85%;
 								
 								/* background-color: violet; */
 							}
@@ -790,11 +524,9 @@
 
 							/* Figcaption p */
 							.populairesPhotos a .thumbnails figcaption p {
-								font-size: 82%;
-
 								margin: 0%;
 								
-								width: 100%;
+								width: 85%;
 								
 								/* background-color: darkviolet; */
 							}
@@ -838,11 +570,12 @@
 	.activites {
 		display: flex;
 		flex-wrap: wrap;
-        justify-content: center;
         
-        margin-top: 3%;
+        margin-top: 7%;
+
+		padding-bottom: 2%;
         
-        width: 97%;
+        width: 96%;
         
         border-radius: 20px;
 
@@ -851,9 +584,7 @@
 
 
 		.activites h2 {
-            font-size: 136%;
-            
-            margin: 0%;
+            margin: 3%;
 
 			/* background-color: lime; */
 		}
@@ -865,7 +596,11 @@
 		.activitesPhotos {
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: center;
+			justify-content: space-between;
+
+			margin: 0%;
+
+			width: 100%;
 
 			/* background-color: orange; */
 		}	
@@ -875,107 +610,156 @@
 			/* Figure */
 			/* =============================== */
 			.activitesPhotos .thumbnails {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-content: center;
+
 				position: relative;
 
-                width: 45%;
-                
-                margin: 2%;
+                width: 50%;
+
+				margin: 0%;
+				margin-top: 1%;
+				margin-bottom: 1%;
 				
 				/* background-color: darkviolet; */
 			}
-			
-			
-			/* =============================== */
-			/* Figure */
-			/* =============================== */
-			.activitesPhotos .thumbnails figure {
-				display: flex;
-				flex-wrap: wrap;
-				align-items: flex-end;
-				justify-content: center;
-									
-				position: relative;
-				
-				margin: 0%;
 
-				border-radius: 20px;
-				box-shadow: 5px 5px 10px lightgray;
-			}
-				
-				
-				/* =============================== */
-				/* Img */
-				/* =============================== */
-				.activitesPhotos .thumbnails Img, .Pict_2, .Pict_3, .Pict_5, .Pict_6 {
-					object-fit: cover;
-					
-					width: 100%;
-					height: 188px;
-				
-					border-radius: 20px;
+
+				.activitesPhotos .thumbnails a {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+
+					width: 50%;
 				}
-
-
+				
+				
 					/* =============================== */
-					/* Figcaption */
+					/* Figure */
 					/* =============================== */
-					.activitesPhotos .thumbnails figcaption {
+					.activitesPhotos .thumbnails figure {
 						display: flex;
 						flex-wrap: wrap;
-						align-content: center;
+						align-items: flex-end;
+						justify-content: center;
+											
+						position: relative;
 						
-						position: absolute;
-						width: 100%;
-						
-						height: 54px;
-						
-						border-radius: 0px 0px 20px 20px;
+						margin: 0%;
 
-						background-color: white;
+						width: 95%;
+
+						border-radius: 20px;
+						box-shadow: 5px 5px 10px lightgray;
 					}
-					
-
-						/* Vieux Port h2 */
-						.activitesPhotos .thumbnails figcaption h2 {
-							font-size: 100%;
+						
+						
+						/* =============================== */
+						/* Img */
+						/* =============================== */
+						.activitesPhotos .thumbnails Img {
+							object-fit: cover;
 							
-							padding-left: 6.5%;
-							
-							color: black;
+							width: 100%;
+							height: 250px;
+						
+							border-radius: 20px;
 						}
-				
-				
-				
 
 
-					/* =============================== */
-					/* Figcaption */
-					/* =============================== */
-					.activitesPhotos .thumbnails figure figcaption {
-						display: flex;
-						flex-wrap: wrap;
-						align-content: center;
-						
-						position: absolute;
-						width: 100%;
-						
-						height: 55px;
-						
-						border-radius: 0px 0px 20px 20px;
-
-						background-color: white;
-					}
+						/* =============================== */
+						/* --- Img --- Pict 2 --- */
+						/* =============================== */
+						.activitesPhotos .thumbnails figure .Pict_2 {
+							height: 250px;
+						}
 
 
-						/* Fort de Pomègues h2 */
-						.activitesPhotos .thumbnails figure figcaption h2 {
-							font-size: 100%;
+						/* =============================== */
+						/* --- Img --- Pict 3 --- */
+						/* =============================== */
+						.activitesPhotos .thumbnails figure .Pict_3 {
+							height: 250px;
+						}
 
-							padding-left: 6.8%;
+
+						/* =============================== */
+						/* --- Img --- Pict 5 --- */
+						/* =============================== */
+						.activitesPhotos .thumbnails figure .Pict_5 {
+							height: 250px;
+						}
+
+
+						/* =============================== */
+						/* --- Img --- Pict 6 --- */
+						/* =============================== */
+						.activitesPhotos .thumbnails figure .Pict_6 {
+							height: 250px;
+						}
+
+
+							/* =============================== */
+							/* Figcaption */
+							/* =============================== */
+							.activitesPhotos .thumbnails figcaption {
+								display: flex;
+								flex-wrap: wrap;
+								align-content: center;
+								
+								position: absolute;
+								
+								height: 55px;
+								
+								border-radius: 0px 0px 20px 20px;
+
+								background-color: white;
+							}
 							
-							color: black;
-						}	
-		
+
+								/* Vieux Port h2 */
+								.activitesPhotos .thumbnails figcaption h2 {
+									font-size: 100%;
+									
+									padding-left: 6.5%;
+									
+									color: black;
+								}
+						
+						
+						
+
+
+							/* =============================== */
+							/* Figcaption */
+							/* =============================== */
+							.activitesPhotos .thumbnails figure figcaption {
+								display: flex;
+								flex-wrap: wrap;
+								align-content: center;
+								
+								position: absolute;
+								width: 100%;
+								
+								height: 55px;
+								
+								border-radius: 0px 0px 20px 20px;
+
+								background-color: white;
+							}
+
+
+								/* Fort de Pomègues h2 */
+								.activitesPhotos .thumbnails figure figcaption h2 {
+									font-size: 100%;
+
+									padding-left: 6.8%;
+									
+									color: black;
+								}	
+				
 
 
 
@@ -985,9 +769,9 @@
 	footer {
 		display: flex;
 		flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
 
-        margin-top: 3%;
+        margin-top: 10%;
         
         width: 100%;
 		
@@ -998,6 +782,11 @@
 		/* =============================== */
 		/* Div */
 		/* =============================== */
+		footer div {
+			width: 30%;
+		}
+
+
 			footer div h2 {
 				margin: 0%;
 				margin-top: 8%;
@@ -1012,9 +801,6 @@
 				list-style: none;
 				
 				font-family: "Raleway-Regular";
-				line-height: 190%;
-				font-weight: 400;
-				font-size: 95%;
 
 				margin-left: -3%;
 				
