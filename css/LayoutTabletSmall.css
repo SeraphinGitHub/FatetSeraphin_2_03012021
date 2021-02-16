@@ -8,7 +8,6 @@
 	/* 			----  HEADER  ---- */
 	/* ============================================================================================================= */
 	header {
-		display: flex;
         flex-direction: column;
 		
 		/* background-color: tomato; */
@@ -19,9 +18,7 @@
 		/* Nav */
 		/* =============================== */
 		.logoEtMenu {
-			display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
 			
 			margin: 0%;
 			
@@ -38,8 +35,6 @@
 				margin-top: 6%;
 				margin-left: 5%;
 				
-				height: 45px;
-
 				/* background-color: orange; */
 			}
 
@@ -48,16 +43,9 @@
 			/* Div */
 			/* =============================== */
 			.menu {
-				display: flex;
-				justify-content: space-between;
-				align-items: center;
-				
 				margin-top: 6.7%;
 				margin-right: 4%;
 				margin-left: 4%;
-				
-				/* h3 */
-				font-family: "Raleway-Regular";
 				
 				width: 100%;
 			}
@@ -67,61 +55,23 @@
 				/* Li */
 				/* =============================== */
 				.menu ul {
-					display: flex;
-					flex-wrap: wrap;
-					justify-content: space-between;
-					
-					margin: 0%;
-
-					padding: 0%;
-
 					width: 62%;
 				}
 
 
-					.menu li {
-						list-style: none;
-
-						color: black;
-						
-						/* background-color: darkturquoise; */
-					}
-
-
-						.menu li a {
-							text-decoration: none;
-
-							color: black;
-							
-							/* background-color: orange; */
-						}
-
-
 						.menu li a.active {
-							text-decoration: none;
-						
 							margin-left: -12%;
 						
 							padding-top: 24%;
 							padding-right: 15%;
 							padding-left: 12%;
-						
-							border-top: #0065FC solid 2px;
-							color: #0065FC;
-							
+
 							/* background-color: orange; */
 						}
 
 
-				.menu a.fixed {
-					text-decoration: none;
-					
+				.menu a.fixed {					
 					margin-left: 0%;
-
-					/* h2 */
-					font-family: "Raleway-Bold";
-
-					color: #0065FC;
 
 					/* background-color: orange; */
 				}
@@ -131,7 +81,6 @@
 		/* Div */
 		/* =============================== */
 		.textHeader_Top {
-			display: flex;
 			flex-wrap: wrap;
 
             margin-top: 5%;
@@ -168,7 +117,6 @@
 		/* Div */
 		/* =============================== */
 		.rechercher {
-			display: flex;
 			justify-content: center;
 
             margin-top: 2.5%;
@@ -176,8 +124,6 @@
 
 			width: 84%;
 			height: 52px;
-
-			border-radius: 15px;
 		}
 
 
@@ -185,7 +131,6 @@
 			/* Figure */
 			/* =============================== */
 			.rechercher figure {
-				
 				width: 64px;
 			}
 
@@ -193,22 +138,9 @@
 			/* =============================== */
 			/* Form */
 			/* =============================== */
-			.rechercher form {
-				display: flex;
-			}
-
-
+			
 				.rechercher input {
-					/* h2 */
-					font-family: "Raleway-Bold";
-					font-size: 113%;
-
-					margin-top: 1%;
-					margin-bottom: 1%;
-					
 					padding-left: 9%;
-					
-					border: none;
 
 					/* background-color: violet; */
 				}
@@ -216,27 +148,11 @@
 			
 			/* Rechercher */
 			.rechercher a {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-
-				text-decoration: none;
-
 				margin-left: -1%;
 
 				padding-right: 28px;
 				padding-left: 25px;
-
-				color: white;
-
-				border-radius: 0px 15px 15px 0px;
-				background-color: #0065FC;
             }
-            
-
-                .rechercher a h2 {
-                    font-size: 113%;
-                }
 
 				
 				.rechercher a .searchIcon {
@@ -250,12 +166,13 @@
 		/* Nav */
 		/* =============================== */
 		nav {
-			display: flex;
 			flex-wrap: wrap;
 			align-content: space-between;
 
 			margin-top: 5%;
 			margin-left: 1.5%;
+
+			width: 97%;
 			
 			/* background-color: greenyellow; */
 		}
@@ -275,12 +192,9 @@
 			/* Li */
 			/* =============================== */
 			.filtres {
-				display: flex;
 				flex-wrap: wrap;
 				justify-content: flex-start;
 				align-content: space-between;
-				
-				list-style: none;
 
 				margin-top: 1.5%;
 				margin-left: -1%;
@@ -294,16 +208,10 @@
 			}
 
 				.filtres li {
-					display: flex;
-					justify-content: space-between;
-
 					margin-right: 1.5%;
 					margin-bottom: 3%;
 
 					height: 46px;
-
-					border:  lightgray solid 2px;
-					border-radius: 30px;
 					
 					/* background-color: orange; */
 				}
@@ -325,24 +233,13 @@
 					/* =============================== */
 					/* Div */
 					/* =============================== */
-					.filtresOnHover {
-						display: flex;
-					}
-
 
 						.filtresOnHover a {
-							display: flex;
-							justify-content: center;
-							align-items: center;
-
-							/* h2 */
 							font-size: 100%;
 	
 							padding-right: 10px;
 							padding-left: 55px;
-							
-							border-radius: 30px;
-							
+
 							/* background-color: darkturquoise; */
 						}
 
@@ -351,10 +248,6 @@
 			/* Div */
 			/* =============================== */
 			.textHeader_Bot {
-				display: flex;
-				justify-content: flex-start;
-				align-items: center;
-
 				margin: 0%;
                 margin-top: 1%;
 
@@ -368,33 +261,15 @@
 				/* Figure */
 				/* =============================== */
 				.textHeader_Bot figure {
-					display: flex;
-					justify-content: center;
-					align-items: center;
-
                     margin: 2.5%;
                     margin-right: 2%;
 
-					height: 20px;
-					width: 20px;
-					
-					border:  lightgray solid 2px;
-					border-radius: 30px;
-						
 					/* background-color: red; */
 				}
 				
 				
-					.textHeader_Bot figure i {
-						font-size: 75%;
-						color: #0065FC;
-					}
-				
-				
 				/* Plus de 500 logements... */
 				.textHeader_Bot p {
-					margin: 0%;
-
 					width: 60%;
 
 					/* background-color: darkviolet; */
@@ -407,17 +282,11 @@
 	/* 			----  SECTION  ----  Hébergement Et Populaires  ---- */
 	/* ============================================================================================================= */
 	.hebergementsEtPopulaires {
-		display: flex;
 		flex-wrap: wrap-reverse;
         justify-content: center;
 
 		/* background-color: violet; */
 	}
-
-
-		.hebergementsEtPopulaires .W3C_Validator {
-			font-size: 0%;
-		}
 
 
 
@@ -429,8 +298,6 @@
             margin-top: 7%;
             
             width: 97%;
-
-            border-radius: 20px;
 		}
 		
 
@@ -444,8 +311,6 @@
 			/* Div */
 			/* =============================== */
 			.hebergementsPhotos {
-				display: flex;
-				flex-wrap: wrap;
 				justify-content: center;
 
 				margin: 0%;
@@ -466,11 +331,7 @@
 				/* Figure */
 				/* =============================== */
 				.hebergementsPhotos .thumbnails {
-					display: flex;
 					flex-wrap: wrap;
-					align-content: center;
-					
-					padding: 5px;
 
 					height: 250px;
 				}
@@ -480,8 +341,6 @@
 					/* Img */
 					/* =============================== */
 					.hebergementsPhotos .thumbnails Img {
-						margin-top: -75px;
-
 						height: 70%;
 					}
 
@@ -490,7 +349,7 @@
 					/* Figcaption */
 					/* =============================== */
 					.hebergementsPhotos .thumbnails figcaption {
-						margin-bottom: -60px;
+						margin-top: 172px;
 
 						padding-left: 6%;
 					}
@@ -532,8 +391,6 @@
 			padding-bottom: 2.5%;
 
             width: 97%;
-
-			border-radius: 20px;
 		}
 		
 
@@ -570,20 +427,15 @@
 			/* Div */
 			/* =============================== */
 			.populairesPhotos {
-				display: flex;
-				flex-wrap: wrap;
-                justify-content: center;
-
 				margin-top: 6%;
 
-                width: 93%;
+            	width: 93%;
 
 				/* background-color: darkturquoise; */
 			}
 
 
 			.populairesPhotos a {
-				display: flex;
 				justify-content: center;
 
 				margin: 1%;
@@ -596,14 +448,6 @@
 				/* Figure */
 				/* =============================== */
 				.populairesPhotos a .thumbnails {
-					display: flex;
-									
-					position: relative;
-
-					margin: 0%;
-
-					padding: 1%;
-
 					width: 100%;
 					height: 140px;
 				}
@@ -621,23 +465,20 @@
 						/* Figcaption */
 						/* =============================== */
 						.populairesPhotos a .thumbnails figcaption {
-							display: flex;
-							flex-wrap: wrap;
 							align-content: space-around;
-
-							position: absolute;
 
 							margin-left: 45%;
 
-                            width: 50%;
-							height: 98px;
+                            width: 47%;
+							height: 73%;
 
 							/* background-color: yellowgreen; */
 						}
 
 
 							/* Figcaption h2 */
-							.populairesPhotos a .thumbnails figcaption h2 {
+							.populairesPhotos a .thumbnails figcaption h2,
+							.populairesPhotos a .thumbnails figcaption p {
 								margin: 0%;			
 								
 								width: 85%;
@@ -645,47 +486,7 @@
 								/* background-color: violet; */
 							}
 
-
-							/* Figcaption p */
-							.populairesPhotos a .thumbnails figcaption p {
-								margin: 0%;
-								
-								width: 85%;
-								
-								/* background-color: darkviolet; */
-							}
-
-							
-								/* =============================== */
-								/* Figure  --- Stars --- */
-								/* =============================== */
-								
-								/* Figure Stars */
-								.populairesPhotos a .thumbnails figcaption figure {
-									display: flex;
-
-									margin: 0%;
-
-									/* background-color: tomato; */
-								}
-								
-
-									/* Active Stars */
-									.populairesPhotos a .thumbnails figcaption .active {
-										font-size: 75%;
-
-										color: #0065FC;
-									}
-
-
-									/* Greyed Out Stars */
-									.populairesPhotos a .thumbnails figcaption .greyedOut {
-										font-size: 75%;
-
-										color: lightgray;
-									}
-					
-
+	
 
 
 	/* ============================================================================================================= */
@@ -697,6 +498,7 @@
         
         margin-top: 7%;
 
+		padding: 0%;
 		padding-bottom: 2%;
         
         width: 97%;
@@ -718,7 +520,6 @@
 		/* Div */
 		/* =============================== */
 		.activitesPhotos {
-			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
 
@@ -730,18 +531,9 @@
 			/* Figure */
 			/* =============================== */
 			.activitesPhotos .thumbnails {
-				display: flex;
-				flex-wrap: wrap;
-				justify-content: center;
-				align-content: space-between;
-
-				position: relative;
-
                 width: 92%;
                 
 				margin: 2%;
-				margin-top: 1%;
-				margin-bottom: 1%;
 				
 				/* background-color: darkviolet; */
 			}
@@ -750,8 +542,6 @@
 				.activitesPhotos .thumbnails a {
 					padding-top: 3%;
 					padding-bottom: 3%;
-
-					width: 100%;
 				}
 				
 				
@@ -759,62 +549,17 @@
 					/* Figure */
 					/* =============================== */
 					.activitesPhotos .thumbnails figure {
-						display: flex;
-						flex-wrap: wrap;
-						align-items: flex-end;
-						justify-content: center;
-											
-						position: relative;
-						
-						margin: 0%;
-
 						width: 100%;
-
-						border-radius: 20px;
-						box-shadow: 5px 5px 10px lightgray;
 					}
 						
 						
 						/* =============================== */
 						/* Img */
 						/* =============================== */
-						.activitesPhotos .thumbnails Img {
-							object-fit: cover;
-							
-							width: 100%;
-							height: 250px;
-						
-							border-radius: 20px;
-						}
-
-
-						/* =============================== */
-						/* --- Img --- Pict 2 --- */
-						/* =============================== */
-						.activitesPhotos .thumbnails figure .Pict_2 {
-							height: 250px;
-						}
-
-
-						/* =============================== */
-						/* --- Img --- Pict 3 --- */
-						/* =============================== */
-						.activitesPhotos .thumbnails figure .Pict_3 {
-							height: 250px;
-						}
-
-
-						/* =============================== */
-						/* --- Img --- Pict 5 --- */
-						/* =============================== */
-						.activitesPhotos .thumbnails figure .Pict_5 {
-							height: 250px;
-						}
-
-
-						/* =============================== */
-						/* --- Img --- Pict 6 --- */
-						/* =============================== */
+						.activitesPhotos .thumbnails Img, 
+						.activitesPhotos .thumbnails figure .Pict_2,
+						.activitesPhotos .thumbnails figure .Pict_3,
+						.activitesPhotos .thumbnails figure .Pict_5,
 						.activitesPhotos .thumbnails figure .Pict_6 {
 							height: 250px;
 						}
@@ -823,62 +568,14 @@
 							/* =============================== */
 							/* Figcaption */
 							/* =============================== */
-							.activitesPhotos .thumbnails figcaption {
-								display: flex;
-								flex-wrap: wrap;
-								align-content: center;
-								
-								position: absolute;
-								width: 100%;
-								
-								height: 55px;
-								
-								border-radius: 0px 0px 20px 20px;
-
-								background-color: white;
-							}
-							
 
 								/* Vieux Port h2 */
-								.activitesPhotos .thumbnails figcaption h2 {
+								.activitesPhotos .thumbnails figcaption h2,
+								.activitesPhotos .thumbnails figure figcaption h2 {
 									font-size: 100%;
 									
 									padding-left: 6.5%;
-									
-									color: black;
 								}
-						
-						
-						
-
-
-							/* =============================== */
-							/* Figcaption */
-							/* =============================== */
-							.activitesPhotos .thumbnails figure figcaption {
-								display: flex;
-								flex-wrap: wrap;
-								align-content: center;
-								
-								position: absolute;
-								width: 100%;
-								
-								height: 55px;
-								
-								border-radius: 0px 0px 20px 20px;
-
-								background-color: white;
-							}
-
-
-								/* Fort de Pomègues h2 */
-								.activitesPhotos .thumbnails figure figcaption h2 {
-									font-size: 100%;
-
-									padding-left: 6.8%;
-									
-									color: black;
-								}	
 				
 
 
@@ -887,17 +584,12 @@
 	/* 			----  FOOTER  ---- */
 	/* ============================================================================================================= */
 	footer {
-		display: flex;
 		flex-wrap: wrap;
         justify-content: center;
 
         margin-top: 10%;
 		padding-bottom: 10%;
 		padding-left: 15%;
-        
-        width: 100%;
-		
-		background-color: #F2F2F2;
 	}
 
 
@@ -920,10 +612,6 @@
 			/* Li */
 			/* =============================== */
 			footer div .footerList {
-				list-style: none;
-				
-				font-family: "Raleway-Regular";
-
 				margin-left: -3%;
 				
 				/* background-color: yellowgreen; */
