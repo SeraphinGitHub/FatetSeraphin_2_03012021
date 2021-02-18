@@ -1,0 +1,61 @@
+
+.maquette {
+	background-image: url("../Maquette Desktop.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	
+	width: 1440px;
+	height: 1884px;
+	
+	left: 0px;
+	
+	opacity: 50%;
+}
+
+.maquetteSubDivided {
+	background-image: url("../Maquette Desktop - SubDivided.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	
+	width: 100%;
+	height: 205%;
+	
+
+	opacity: 50%;
+}
+
+
+.maquetteSmartphone {
+	background-image: url("../Maquette iPhone 8 - 1.png");
+	background-repeat: no-repeat;
+	position: absolute;
+
+	width: 375px;
+	height: 4550px;
+	
+	opacity: 60%;
+}
+
+
+.maquetteTabletSmall {
+	background-image: url("../Maquette Tablet Small.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	
+	width: 421px;
+	height: 4380px;
+	
+	opacity: 50%;
+}
+
+
+.maquetteTabletBig {
+	background-image: url("../Maquette Tablet Big.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	
+	width: 722px;
+	height: 2230px;
+	
+	opacity: 50%;
+}

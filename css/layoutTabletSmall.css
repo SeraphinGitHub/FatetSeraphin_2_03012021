@@ -1,0 +1,620 @@
+
+/* ============================================================================================================= */
+/* 			----  Tablet Small Size ---- */
+/* ============================================================================================================= */
+@media screen and (min-width: 421px) and (max-device-width : 722px) {
+    
+	/* ============================================================================================================= */
+	/* 			----  HEADER  ---- */
+	/* ============================================================================================================= */
+	header {
+        flex-direction: column;
+		
+		/* background-color: tomato; */
+	}
+
+
+		/* =============================== */
+		/* Nav */
+		/* =============================== */
+		.logoEtMenu {
+            flex-wrap: wrap;
+			
+			margin: 0%;
+			
+			padding: 0%;
+			
+			/* background-color: greenyellow; */
+		}
+
+
+			/* =============================== */
+			/* Img */
+			/* =============================== */
+			.logo {
+				margin-top: 6%;
+				margin-left: 5%;
+				
+				/* background-color: orange; */
+			}
+
+
+			/* =============================== */
+			/* Div */
+			/* =============================== */
+			.menu {
+				margin-top: 6.7%;
+				margin-right: 4%;
+				margin-left: 4%;
+				
+				width: 100%;
+			}
+			
+
+				/* =============================== */
+				/* Li */
+				/* =============================== */
+				.menu ul {
+					width: 62%;
+				}
+
+
+						.menu li a.active {
+							margin-left: -12%;
+						
+							padding-top: 24%;
+							padding-right: 15%;
+							padding-left: 12%;
+
+							/* background-color: orange; */
+						}
+
+
+				.menu a.fixed {					
+					margin-left: 0%;
+
+					/* background-color: orange; */
+				}
+
+
+		/* =============================== */
+		/* Div */
+		/* =============================== */
+		.textHeader_Top {
+			flex-wrap: wrap;
+
+            margin-top: 5%;
+            margin-left: 3%;
+
+			width: 95%;
+
+			/* background-color: greenyellow; */
+		}
+		
+		
+			/* Trouvez votre hébergement ... */
+			.textHeader_Top h2 {
+				font-size: 140%;
+				word-spacing: -30%;
+				line-height: 140%;
+
+				margin: 0%;
+				
+				/* background-color: darkturquoise; */
+			}
+
+
+			/* En plein centre ville... */
+			.textHeader_Top p {
+				margin-top: 2%;
+				margin-left: 0%;
+				
+				/* background-color: darkviolet; */
+			}
+
+
+		/* =============================== */
+		/* Div */
+		/* =============================== */
+		.rechercher {
+			justify-content: center;
+
+            margin-top: 2.5%;
+			margin-left: 8%;
+
+			width: 84%;
+			height: 52px;
+		}
+
+
+			/* =============================== */
+			/* Figure */
+			/* =============================== */
+			.rechercher figure {
+				width: 64px;
+			}
+
+
+			/* =============================== */
+			/* Form */
+			/* =============================== */
+			
+				.rechercher input {
+					padding-left: 9%;
+
+					/* background-color: violet; */
+				}
+
+			
+			/* Rechercher */
+			.rechercher a {
+				margin-left: -1%;
+
+				padding-right: 28px;
+				padding-left: 25px;
+            }
+
+				
+				.rechercher a .searchIcon {
+					font-size: 0%;
+
+					width: 0%;
+				}
+
+
+		/* =============================== */
+		/* Nav */
+		/* =============================== */
+		nav {
+			flex-wrap: wrap;
+			align-content: space-between;
+
+			margin-top: 5%;
+			margin-left: 1.5%;
+
+			width: 97%;
+			
+			/* background-color: greenyellow; */
+		}
+
+
+			/* Filtres */
+			nav h2 {
+				margin: 0%;
+
+				width: 100%;
+
+				/* background-color: orange; */
+			}
+
+			
+			/* =============================== */
+			/* Li */
+			/* =============================== */
+			.filtres {
+				flex-wrap: wrap;
+				justify-content: flex-start;
+				align-content: space-between;
+
+				margin-top: 1.5%;
+				margin-left: -1%;
+				margin-bottom: 0%;
+				
+				padding-left: 0%;
+
+				width: 100%;
+
+				/* background-color: darkturquoise; */
+			}
+
+				.filtres li {
+					margin-right: 0.5%;
+					margin-bottom: 3%;
+					margin-left: 0.5%;
+
+					height: 46px;
+					
+					/* background-color: orange; */
+				}
+
+
+					/* =============================== */
+					/* Figure */
+					/* =============================== */
+					.filtres li figure {
+						width: 50px;
+						height: 50px;
+					}
+
+
+						.filtres li figure i {
+							color: #0065FC;
+						}
+
+					/* =============================== */
+					/* Div */
+					/* =============================== */
+
+						.filtresOnHover a {
+							font-size: 100%;
+	
+							padding-right: 10px;
+							padding-left: 55px;
+
+							/* background-color: darkturquoise; */
+						}
+
+
+			/* =============================== */
+			/* Div */
+			/* =============================== */
+			.textHeader_Bot {
+				margin: 0%;
+                margin-top: 1%;
+
+				padding: 0%;
+
+				/* background-color: greenyellow; */
+			}
+
+
+				/* =============================== */
+				/* Figure */
+				/* =============================== */
+				.textHeader_Bot figure {
+                    margin: 2.5%;
+                    margin-right: 2%;
+
+					/* background-color: red; */
+				}
+				
+				
+				/* Plus de 500 logements... */
+				.textHeader_Bot p {
+					width: 60%;
+
+					/* background-color: darkviolet; */
+				}
+
+
+
+
+	/* ============================================================================================================= */
+	/* 			----  SECTION  ----  Hébergement Et Populaires  ---- */
+	/* ============================================================================================================= */
+	.hebergementsEtPopulaires {
+		flex-wrap: wrap-reverse;
+        justify-content: center;
+
+		/* background-color: violet; */
+	}
+
+
+
+		/* ==================================================== */
+		/* ----  SECTION  ----  Hébergements
+		/* ==================================================== */
+		.hebergements {
+			margin: 0%;
+            margin-top: 7%;
+            
+            width: 97%;
+		}
+		
+
+			/* Hébergements à Marseille */
+			.hebergements h2 {
+                margin: 3%;
+			}
+
+
+			/* =============================== */
+			/* Div */
+			/* =============================== */
+			.hebergementsPhotos {
+				justify-content: center;
+
+				margin: 0%;
+
+				width: 100%;
+
+                /* background-color: orange; */
+			}
+
+
+				.hebergementsPhotos a {
+                    width: 45%;
+                    margin: 2%;
+				}
+
+
+				/* =============================== */
+				/* Figure */
+				/* =============================== */
+				.hebergementsPhotos .thumbnails {
+					flex-wrap: wrap;
+
+					height: 250px;
+				}
+
+
+					/* =============================== */
+					/* Img */
+					/* =============================== */
+					.hebergementsPhotos .thumbnails Img {
+						height: 70%;
+					}
+
+
+					/* =============================== */
+					/* Figcaption */
+					/* =============================== */
+					.hebergementsPhotos .thumbnails figcaption {
+						margin-top: 172px;
+
+						padding-left: 6%;
+					}
+					
+
+						/* Figcaption h2 */
+						.hebergementsPhotos .thumbnails figcaption h2 {
+							font-size: 97%;
+
+							margin: 1%;
+							margin-bottom: 2.5%;			
+							
+							width: 100%;
+							
+							/* background-color: violet; */
+						}
+
+
+			/* Afficher plus */
+			.hebergements h3 {
+				margin: 6%;
+			}
+
+
+
+
+		/* ==================================================== */
+		/* ----  SECTION  ----  Populaires
+		/* ==================================================== */
+		.populaires {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+			margin: 0%;
+            margin-top: 5%;
+			
+			padding: 0%;
+			padding-bottom: 2.5%;
+
+            width: 97%;
+		}
+		
+
+			/* =============================== */
+			/* Div */
+			/* =============================== */
+			.populairesTitle {
+				margin: 0%;
+				margin-top: 2%;
+                margin-left: 1.5%;
+				
+				padding: 0%;
+
+                width: 100%;
+
+				/* background-color: lime; */
+			}
+
+
+				/* =============================== */
+				/* Figure */
+				/* =============================== */
+				.populairesTitle figure {
+					margin: 0%;
+					margin-top: 0.3%;
+					margin-right: 14.5%;
+					
+					padding: 0%;
+				}
+
+
+
+			/* =============================== */
+			/* Div */
+			/* =============================== */
+			.populairesPhotos {
+				margin-top: 6%;
+
+            	width: 93%;
+
+				/* background-color: darkturquoise; */
+			}
+
+
+			.populairesPhotos a {
+				justify-content: center;
+
+				margin: 1%;
+
+				width: 100%;
+			}
+				
+
+				/* =============================== */
+				/* Figure */
+				/* =============================== */
+				.populairesPhotos a .thumbnails {
+					width: 100%;
+					height: 140px;
+				}
+
+
+						/* =============================== */
+						/* Img */
+						/* =============================== */
+						.populairesPhotos a .thumbnails Img {
+							width: 45%;
+						}
+
+
+						/* =============================== */
+						/* Figcaption */
+						/* =============================== */
+						.populairesPhotos a .thumbnails figcaption {
+							align-content: space-around;
+
+							margin-left: 45%;
+
+                            width: 47%;
+							height: 73%;
+
+							/* background-color: yellowgreen; */
+						}
+
+
+							/* Figcaption h2 */
+							.populairesPhotos a .thumbnails figcaption h2,
+							.populairesPhotos a .thumbnails figcaption p {
+								margin: 0%;			
+								
+								width: 85%;
+								
+								/* background-color: violet; */
+							}
+
+	
+
+
+	/* ============================================================================================================= */
+	/* 			----  SECTION  ----  Activités  ---- */
+	/* ============================================================================================================= */
+	.activites {
+		display: flex;
+		flex-wrap: wrap;
+        
+        margin-top: 7%;
+
+		padding: 0%;
+		padding-bottom: 2%;
+        
+        width: 97%;
+        
+        border-radius: 20px;
+
+        background-color: #F2F2F2;
+	}
+
+
+		.activites h2 {
+            margin: 3%;
+
+			/* background-color: lime; */
+		}
+
+
+		/* =============================== */
+		/* Div */
+		/* =============================== */
+		.activitesPhotos {
+			flex-wrap: wrap;
+			justify-content: center;
+
+			/* background-color: orange; */
+		}	
+		
+		
+			/* =============================== */
+			/* Figure */
+			/* =============================== */
+			.activitesPhotos .thumbnails {
+                width: 92%;
+                
+				margin: 2%;
+				
+				/* background-color: darkviolet; */
+			}
+
+
+				.activitesPhotos .thumbnails a {
+					padding-top: 3%;
+					padding-bottom: 3%;
+				}
+				
+				
+					/* =============================== */
+					/* Figure */
+					/* =============================== */
+					.activitesPhotos .thumbnails figure {
+						width: 100%;
+					}
+						
+						
+						/* =============================== */
+						/* Img */
+						/* =============================== */
+						.activitesPhotos .thumbnails Img, 
+						.activitesPhotos .thumbnails figure .Pict_2,
+						.activitesPhotos .thumbnails figure .Pict_3,
+						.activitesPhotos .thumbnails figure .Pict_5,
+						.activitesPhotos .thumbnails figure .Pict_6 {
+							height: 250px;
+						}
+
+
+							/* =============================== */
+							/* Figcaption */
+							/* =============================== */
+
+								/* Vieux Port h2 */
+								.activitesPhotos .thumbnails figcaption h2,
+								.activitesPhotos .thumbnails figure figcaption h2 {
+									font-size: 100%;
+									
+									padding-left: 6.5%;
+								}
+				
+
+
+
+	/* ============================================================================================================= */
+	/* 			----  FOOTER  ---- */
+	/* ============================================================================================================= */
+	footer {
+		flex-wrap: wrap;
+        justify-content: center;
+
+        margin-top: 10%;
+		padding-bottom: 10%;
+		padding-left: 15%;
+	}
+
+
+		/* =============================== */
+		/* Div */
+		/* =============================== */
+		footer div {
+			width: 100%;
+		}
+
+
+			footer div h2 {
+				margin: 0%;
+				margin-top: 8%;
+				margin-left: 7.6%;
+			}
+		
+			
+			/* =============================== */
+			/* Li */
+			/* =============================== */
+			footer div .footerList {
+				margin-left: -3%;
+				
+				/* background-color: yellowgreen; */
+			}
+}
